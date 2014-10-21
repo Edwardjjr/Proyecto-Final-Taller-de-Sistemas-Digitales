@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-10-16T17:28:19</DateModified>
+  <DateModified>2014-10-21T10:20:19</DateModified>
   <ModuleName>Contador</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Diego/Documents/ProyectosXilinx/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego/iseconfig/Contador.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Diego/Documents/ProyectosXilinx/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Diego/Documents/ProyectosXilinx/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego\</ImplementationReportsDirectory>
   <DateInitialized>2014-10-16T17:28:19</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

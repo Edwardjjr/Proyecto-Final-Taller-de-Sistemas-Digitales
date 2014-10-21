@@ -21,7 +21,22 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ProyectoFinal-Juego.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MaquinaJugador.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MaquinaJugador.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MaquinaJugador.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MaquinaMaster.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MaquinaMaster.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MaquinaMaster.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pintar.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Pintar.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Pintar.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="vga_sync.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="vga_sync.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="vga_sync.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
 

@@ -1,0 +1,4 @@
+MO vga_sync NULL vga_sync.v vlg62/vga__sync.bin 1413912175
+MO MaquinaMaster NULL MaquinaMaster.v vlg5C/_maquina_master.bin 1413912191
+MO MaquinaJugador NULL MaquinaJugador.v vlg0C/_maquina_jugador.bin 1413912182
+MO Pintar NULL Pintar.v vlg4A/_pintar.bin 1413910794
