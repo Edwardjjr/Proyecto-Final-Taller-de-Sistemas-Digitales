@@ -1,4 +1,13 @@
-MO vga_sync NULL vga_sync.v vlg62/vga__sync.bin 1413912175
-MO MaquinaMaster NULL MaquinaMaster.v vlg5C/_maquina_master.bin 1413912191
-MO MaquinaJugador NULL MaquinaJugador.v vlg0C/_maquina_jugador.bin 1413912182
-MO Pintar NULL Pintar.v vlg4A/_pintar.bin 1413910794
+MO vga_sync NULL vga_sync.v vlg62/vga__sync.bin 1413940749
+MO MaquinaMaster NULL MaquinaMaster.v vlg5C/_maquina_master.bin 1413940749
+MO Jugador NULL Jugador.v vlg08/_jugador.bin 1413940749
+MO Top NULL Top.v vlg4F/_top.bin 1413940749
+MO MaquinaJugador NULL MaquinaJugador.v vlg0C/_maquina_jugador.bin 1413940749
+MO MaquinaCarros NULL MaquinaCarros.v vlg4E/_maquina_carros.bin 1413940749
+MO DivisorFrecuencias NULL DivisorFrecuencias.v vlg44/_divisor_frecuencias.bin 1413940749
+MO Carro2 NULL Carro2.v vlg59/_carro2.bin 1413940749
+MO Pintar NULL Pintar.v vlg4A/_pintar.bin 1413940749
+MO CuentaPuntos NULL CuentaPuntos.v vlg55/_cuenta_puntos.bin 1413940749
+MO LFSR NULL LFSR.v vlg63/_l_f_s_r.bin 1413940749
+MO CarroX NULL CarroX.v vlg7F/_carro_x.bin 1413940749
+MO CarroY NULL CarroY.v vlg00/_carro_y.bin 1413940749

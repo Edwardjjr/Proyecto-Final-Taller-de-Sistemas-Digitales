@@ -26,19 +26,21 @@ module Pintar(
 	input iPintarJugador,
 	input[9:0] iPosicionX1,
 	input[9:0] iPosicionX2,
+	input[9:0] iPosicionX3,
 	input[8:0] iPosicionY1,
 	input[8:0] iPosicionY2,
-	input[8:0] iPosicionJugador,
+	input[8:0] iPosicionY3,
+	input[8:0] iPosicionJugador,	
 	output [2:0] ColorRGB
     );
 	 
 	 reg [2:0] rColorRGB;//revisar si estos bits funca si no pasarlos a  [24:0]
 	 
 	 localparam cFondo = 0;	 //es para asignarle el color negro al fondo de la pantalla.
-	 localparam gap = 128;
+	 localparam gap = 105;
 	 localparam lengthCuadro = 85; //Carros de tamaño 85x85 pixeles.
-	 localparam heigthCuadro = 85;
-	 localparam YJugador = 315; 
+	 localparam heigthCuadro = 90;
+	 localparam YJugador = 340; 
 	 
 	 always@(posedge clk)
 		begin
@@ -58,18 +60,19 @@ module Pintar(
 			
 	
 				///Estos son los ifs de los carros obstaculos. 
-				/*if ((pixelY > iPosicionY1 + gap) &&(pixelY < 480) &&(pixelX > iPosicionX1)&&(pixelX < (iPosicionX1+64)))begin
+				if ((pixelY > iPosicionY1) &&(pixelY < iPosicionY1+heigthCuadro) &&(pixelX > iPosicionX1)&&(pixelX < (iPosicionX1+lengthCuadro)))begin
 					rColorRGB <= 2'd1;//cTubo; 
 				end
 				
-				if ((pixelY > 0) &&(pixelY < iPosicionY2) &&(pixelX > iPosicionX2)&&(pixelX < (iPosicionX2+64)))begin
+				if ((pixelY > iPosicionY2) &&(pixelY < iPosicionY2+heigthCuadro) &&(pixelX > iPosicionX2)&&(pixelX < (iPosicionX2+lengthCuadro)))begin
 					rColorRGB <= 2'd1;//cTubo; 
 				end
-				if ((pixelY > iPosicionY2 + gap) &&(pixelY < 480) &&(pixelX > iPosicionX2)&&(pixelX < (iPosicionX2+64)))begin
-					rColorRGB <= 2'd1;//cTubo; 
-				end*/
-
 				
+				if(iPosicionY1 > 390)begin 
+					if ((pixelY > iPosicionY3) &&(pixelY < iPosicionY1-390) &&(pixelX > iPosicionX3)&&(pixelX < (iPosicionX3+lengthCuadro)))begin
+					rColorRGB <= 2'd1;//cTubo; 
+					end				
+				end				
 			end
 			
 			//Aqui se pinta el carro del Jugador. La señal iPintarJugador llega de la máquina de estados master. 

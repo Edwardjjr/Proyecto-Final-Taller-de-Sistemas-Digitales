@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Diego/Documents/ProyectosXilinx/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Diego/Documents/ProyectosXilinx/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego/xst"
+elaborate
+-ifn MaquinaCarros.prj
+-ifmt mixed

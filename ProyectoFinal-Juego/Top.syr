@@ -1,0 +1,873 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "vga_sync.v" in library work
+Compiling verilog file "Pintar.v" in library work
+Module <vga_sync> compiled
+Compiling verilog file "MaquinaMaster.v" in library work
+Module <Pintar> compiled
+Compiling verilog file "MaquinaJugador.v" in library work
+Module <MaquinaMaster> compiled
+Compiling verilog file "MaquinaCarros.v" in library work
+Module <MaquinaJugador> compiled
+Compiling verilog file "LFSR.v" in library work
+Module <MaquinaCarros> compiled
+Compiling verilog file "Jugador.v" in library work
+Module <LFSR> compiled
+Compiling verilog file "DivisorFrecuencias.v" in library work
+Module <Jugador> compiled
+Compiling verilog file "CuentaPuntos.v" in library work
+Module <DivisorFrecuencias> compiled
+Compiling verilog file "CarroY.v" in library work
+Module <CuentaPuntos> compiled
+Compiling verilog file "CarroX.v" in library work
+Module <CarroY> compiled
+Compiling verilog file "Carro2.v" in library work
+Module <CarroX> compiled
+Compiling verilog file "Top.v" in library work
+Module <Carro2> compiled
+Module <Top> compiled
+No errors in compilation
+Analysis of file <"Top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Top> in library <work>.
+
+Analyzing hierarchy for module <DivisorFrecuencias> in library <work>.
+
+Analyzing hierarchy for module <MaquinaMaster> in library <work> with parameters.
+	a = "000"
+	b = "001"
+	c = "010"
+	d = "011"
+	e = "100"
+
+Analyzing hierarchy for module <LFSR> in library <work>.
+
+Analyzing hierarchy for module <MaquinaCarros> in library <work> with parameters.
+	a = "000"
+	b = "001"
+	c = "010"
+	d = "011"
+	e = "100"
+
+Analyzing hierarchy for module <CarroX> in library <work>.
+
+Analyzing hierarchy for module <Carro2> in library <work>.
+
+Analyzing hierarchy for module <CarroY> in library <work>.
+
+Analyzing hierarchy for module <vga_sync> in library <work> with parameters.
+	HB = "00000000000000000000000000100100"
+	HD = "00000000000000000000001010000000"
+	HF = "00000000000000000000000000011100"
+	HR = "00000000000000000000000001100000"
+	HT = "00000000000000000000001100100000"
+	VB = "00000000000000000000000000100001"
+	VD = "00000000000000000000000111100000"
+	VF = "00000000000000000000000000001010"
+	VR = "00000000000000000000000000000010"
+	VT = "00000000000000000000001000001101"
+
+Analyzing hierarchy for module <Pintar> in library <work> with parameters.
+	YJugador = "00000000000000000000000101010100"
+	cFondo = "00000000000000000000000000000000"
+	gap = "00000000000000000000000001101001"
+	heigthCuadro = "00000000000000000000000001011010"
+	lengthCuadro = "00000000000000000000000001010101"
+
+Analyzing hierarchy for module <Jugador> in library <work> with parameters.
+	XInicial = "00000000000000000000000100010110"
+	dx = "00000000000000000000000000000010"
+	xMax = "00000000000000000000000110101001"
+	xMin = "00000000000000000000000011010111"
+
+Analyzing hierarchy for module <MaquinaJugador> in library <work> with parameters.
+	s0 = "00"
+	s1 = "01"
+	s2 = "10"
+	s3 = "11"
+
+Analyzing hierarchy for module <CuentaPuntos> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Top>.
+Module <Top> is correct for synthesis.
+ 
+Analyzing module <DivisorFrecuencias> in library <work>.
+Module <DivisorFrecuencias> is correct for synthesis.
+ 
+Analyzing module <MaquinaMaster> in library <work>.
+	a = 3'b000
+	b = 3'b001
+	c = 3'b010
+	d = 3'b011
+	e = 3'b100
+Module <MaquinaMaster> is correct for synthesis.
+ 
+Analyzing module <LFSR> in library <work>.
+Module <LFSR> is correct for synthesis.
+ 
+Analyzing module <MaquinaCarros> in library <work>.
+	a = 3'b000
+	b = 3'b001
+	c = 3'b010
+	d = 3'b011
+	e = 3'b100
+Module <MaquinaCarros> is correct for synthesis.
+ 
+Analyzing module <CarroX> in library <work>.
+Module <CarroX> is correct for synthesis.
+ 
+Analyzing module <Carro2> in library <work>.
+Module <Carro2> is correct for synthesis.
+ 
+Analyzing module <CarroY> in library <work>.
+Module <CarroY> is correct for synthesis.
+ 
+Analyzing module <vga_sync> in library <work>.
+	HB = 32'sb00000000000000000000000000100100
+	HD = 32'sb00000000000000000000001010000000
+	HF = 32'sb00000000000000000000000000011100
+	HR = 32'sb00000000000000000000000001100000
+	HT = 32'sb00000000000000000000001100100000
+	VB = 32'sb00000000000000000000000000100001
+	VD = 32'sb00000000000000000000000111100000
+	VF = 32'sb00000000000000000000000000001010
+	VR = 32'sb00000000000000000000000000000010
+	VT = 32'sb00000000000000000000001000001101
+Module <vga_sync> is correct for synthesis.
+ 
+Analyzing module <Pintar> in library <work>.
+	YJugador = 32'sb00000000000000000000000101010100
+	cFondo = 32'sb00000000000000000000000000000000
+	gap = 32'sb00000000000000000000000001101001
+	heigthCuadro = 32'sb00000000000000000000000001011010
+	lengthCuadro = 32'sb00000000000000000000000001010101
+Module <Pintar> is correct for synthesis.
+ 
+Analyzing module <Jugador> in library <work>.
+	XInicial = 32'sb00000000000000000000000100010110
+	dx = 32'sb00000000000000000000000000000010
+	xMax = 32'sb00000000000000000000000110101001
+	xMin = 32'sb00000000000000000000000011010111
+Module <Jugador> is correct for synthesis.
+ 
+Analyzing module <MaquinaJugador> in library <work>.
+	s0 = 2'b00
+	s1 = 2'b01
+	s2 = 2'b10
+	s3 = 2'b11
+Module <MaquinaJugador> is correct for synthesis.
+ 
+Analyzing module <CuentaPuntos> in library <work>.
+Module <CuentaPuntos> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DivisorFrecuencias>.
+    Related source file is "DivisorFrecuencias.v".
+    Found 1-bit register for signal <clk_1sTemp>.
+    Found 1-bit register for signal <clk_25Temp>.
+    Found 25-bit up counter for signal <contador>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <DivisorFrecuencias> synthesized.
+
+
+Synthesizing Unit <MaquinaMaster>.
+    Related source file is "MaquinaMaster.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <estado> of Case statement line 44 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <estado> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <estado>.
+    Found 5-bit register for signal <estado>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <MaquinaMaster> synthesized.
+
+
+Synthesizing Unit <LFSR>.
+    Related source file is "LFSR.v".
+    Found 9-bit register for signal <data>.
+    Found 1-bit xor2 for signal <feedback>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <LFSR> synthesized.
+
+
+Synthesizing Unit <MaquinaCarros>.
+    Related source file is "MaquinaCarros.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <estado> of Case statement line 53 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <estado> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <estado>.
+    Found 5-bit register for signal <estado>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <MaquinaCarros> synthesized.
+
+
+Synthesizing Unit <CarroX>.
+    Related source file is "CarroX.v".
+    Found 1-bit register for signal <oEnableCuenta>.
+    Found 1-bit register for signal <oEnableCero>.
+    Found 10-bit register for signal <RegistroX>.
+    Found 9-bit register for signal <RegistroY>.
+    Summary:
+	inferred  21 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <CarroX> synthesized.
+
+
+Synthesizing Unit <Carro2>.
+    Related source file is "Carro2.v".
+    Found 10-bit register for signal <RegistroX>.
+    Found 9-bit register for signal <RegistroY>.
+    Found 9-bit adder for signal <RegistroY$addsub0000> created at line 44.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Carro2> synthesized.
+
+
+Synthesizing Unit <CarroY>.
+    Related source file is "CarroY.v".
+    Found 9-bit comparator less for signal <old_RegistroX_5$cmp_lt0000> created at line 39.
+    Found 10-bit register for signal <RegistroX>.
+    Found 10-bit adder for signal <RegistroX$addsub0000> created at line 48.
+    Found 9-bit register for signal <RegistroY>.
+    Summary:
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <CarroY> synthesized.
+
+
+Synthesizing Unit <vga_sync>.
+    Related source file is "vga_sync.v".
+    Found 11-bit up counter for signal <pixelX>.
+    Found 10-bit up counter for signal <pixelY>.
+    Found 1-bit register for signal <sincH>.
+    Found 1-bit register for signal <sincV>.
+    Found 1-bit register for signal <video>.
+    Found 1-bit register for signal <videoH>.
+    Found 1-bit register for signal <videoV>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   5 D-type flip-flop(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <Pintar>.
+    Related source file is "Pintar.v".
+    Found 11-bit subtractor for signal <$sub0000> created at line 72.
+    Found 9-bit adder carry out for signal <add0000$addsub0000> created at line 81.
+    Found 3-bit register for signal <rColorRGB>.
+    Found 10-bit adder carry out for signal <rColorRGB$addsub0005> created at line 72.
+    Found 9-bit adder carry out for signal <rColorRGB$addsub0006> created at line 67.
+    Found 10-bit adder carry out for signal <rColorRGB$addsub0007> created at line 67.
+    Found 9-bit adder carry out for signal <rColorRGB$addsub0008> created at line 63.
+    Found 10-bit adder carry out for signal <rColorRGB$addsub0009> created at line 63.
+    Found 9-bit comparator greater for signal <rColorRGB$cmp_gt0000> created at line 71.
+    Found 10-bit comparator greater for signal <rColorRGB$cmp_gt0001> created at line 67.
+    Found 11-bit comparator greater for signal <rColorRGB$cmp_gt0002> created at line 67.
+    Found 10-bit comparator greater for signal <rColorRGB$cmp_gt0003> created at line 63.
+    Found 11-bit comparator greater for signal <rColorRGB$cmp_gt0004> created at line 63.
+    Found 10-bit comparator greater for signal <rColorRGB$cmp_gt0005> created at line 57.
+    Found 11-bit comparator greater for signal <rColorRGB$cmp_gt0006> created at line 57.
+    Found 11-bit comparator greater for signal <rColorRGB$cmp_gt0007> created at line 53.
+    Found 10-bit comparator greater for signal <rColorRGB$cmp_gt0008> created at line 72.
+    Found 11-bit comparator greater for signal <rColorRGB$cmp_gt0009> created at line 72.
+    Found 10-bit comparator greater for signal <rColorRGB$cmp_gt0010> created at line 81.
+    Found 11-bit comparator greater for signal <rColorRGB$cmp_gt0011> created at line 81.
+    Found 10-bit comparator less for signal <rColorRGB$cmp_lt0000> created at line 67.
+    Found 11-bit comparator less for signal <rColorRGB$cmp_lt0001> created at line 67.
+    Found 10-bit comparator less for signal <rColorRGB$cmp_lt0002> created at line 63.
+    Found 11-bit comparator less for signal <rColorRGB$cmp_lt0003> created at line 63.
+    Found 10-bit comparator less for signal <rColorRGB$cmp_lt0004> created at line 57.
+    Found 11-bit comparator less for signal <rColorRGB$cmp_lt0005> created at line 57.
+    Found 11-bit comparator less for signal <rColorRGB$cmp_lt0006> created at line 53.
+    Found 11-bit comparator less for signal <rColorRGB$cmp_lt0007> created at line 72.
+    Found 11-bit comparator less for signal <rColorRGB$cmp_lt0008> created at line 72.
+    Found 10-bit comparator less for signal <rColorRGB$cmp_lt0009> created at line 81.
+    Found 11-bit comparator less for signal <rColorRGB$cmp_lt0010> created at line 81.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   7 Adder/Subtractor(s).
+	inferred  23 Comparator(s).
+Unit <Pintar> synthesized.
+
+
+Synthesizing Unit <Jugador>.
+    Related source file is "Jugador.v".
+WARNING:Xst:1305 - Output <posicionY> is never assigned. Tied to value 000000000.
+WARNING:Xst:646 - Signal <posicionX> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 9-bit comparator greatequal for signal <espacioAb$cmp_ge0000> created at line 55.
+    Found 10-bit comparator lessequal for signal <espacioAr$cmp_le0000> created at line 56.
+    Found 9-bit updown accumulator for signal <rPosicionX>.
+    Summary:
+	inferred   1 Accumulator(s).
+	inferred   2 Comparator(s).
+Unit <Jugador> synthesized.
+
+
+Synthesizing Unit <MaquinaJugador>.
+    Related source file is "MaquinaJugador.v".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <state> of Case statement line 65 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <MaquinaJugador> synthesized.
+
+
+Synthesizing Unit <CuentaPuntos>.
+    Related source file is "CuentaPuntos.v".
+    Found 16-bit up counter for signal <RegContador>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <CuentaPuntos> synthesized.
+
+
+Synthesizing Unit <Top>.
+    Related source file is "Top.v".
+WARNING:Xst:653 - Signal <EnableChoque> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <ConectorY> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <ConectorX> is used but never assigned. This sourceless signal will be automatically connected to value 000000000.
+WARNING:Xst:646 - Signal <ConectorNumero> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Top> synthesized.
+
+WARNING:Xst:524 - All outputs of the instance <Sumador> of the block <CuentaPuntos> are unconnected in block <Top>.
+   This instance will be removed from the design along with all underlying logic
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 10
+ 10-bit adder                                          : 1
+ 10-bit adder carry out                                : 3
+ 11-bit subtractor                                     : 1
+ 9-bit adder                                           : 2
+ 9-bit adder carry out                                 : 3
+# Counters                                             : 3
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+# Accumulators                                         : 1
+ 9-bit updown accumulator                              : 1
+# Registers                                            : 19
+ 1-bit register                                        : 9
+ 10-bit register                                       : 3
+ 3-bit register                                        : 1
+ 5-bit register                                        : 2
+ 9-bit register                                        : 4
+# Comparators                                          : 26
+ 10-bit comparator greater                             : 5
+ 10-bit comparator less                                : 4
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 6
+ 11-bit comparator less                                : 7
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator greater                              : 1
+ 9-bit comparator less                                 : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <MaquinaBicho/state/FSM> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+ 11    | 11
+-------------------
+WARNING:Xst:1710 - FF/Latch <estado_4> (without init value) has a constant value of 0 in block <FSMMaster>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <estado_3> of sequential type is unconnected in block <FSMMaster>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 10
+ 10-bit adder                                          : 1
+ 10-bit adder carry out                                : 3
+ 11-bit subtractor                                     : 1
+ 9-bit adder                                           : 2
+ 9-bit adder carry out                                 : 3
+# Counters                                             : 3
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+# Accumulators                                         : 1
+ 9-bit updown accumulator                              : 1
+# Registers                                            : 88
+ Flip-Flops                                            : 88
+# Comparators                                          : 26
+ 10-bit comparator greater                             : 5
+ 10-bit comparator less                                : 4
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greater                             : 6
+ 11-bit comparator less                                : 7
+ 9-bit comparator greatequal                           : 1
+ 9-bit comparator greater                              : 1
+ 9-bit comparator less                                 : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <estado_4> (without init value) has a constant value of 0 in block <MaquinaMaster>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <estado_3> of sequential type is unconnected in block <MaquinaMaster>.
+
+Optimizing unit <Top> ...
+
+Optimizing unit <LFSR> ...
+
+Optimizing unit <MaquinaCarros> ...
+
+Optimizing unit <CarroX> ...
+
+Optimizing unit <Carro2> ...
+
+Optimizing unit <CarroY> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <Pintar> ...
+WARNING:Xst:2677 - Node <RegistroPintarX1/oEnableCuenta> of sequential type is unconnected in block <Top>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 5.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 142
+ Flip-Flops                                            : 142
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top.ngr
+Top Level Output File Name         : Top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 827
+#      GND                         : 1
+#      INV                         : 29
+#      LUT1                        : 67
+#      LUT2                        : 174
+#      LUT2_L                      : 5
+#      LUT3                        : 35
+#      LUT3_D                      : 1
+#      LUT3_L                      : 5
+#      LUT4                        : 105
+#      LUT4_D                      : 3
+#      LUT4_L                      : 8
+#      MUXCY                       : 260
+#      MUXF5                       : 20
+#      VCC                         : 1
+#      XORCY                       : 113
+# FlipFlops/Latches                : 142
+#      FD                          : 30
+#      FDC                         : 2
+#      FDCE                        : 5
+#      FDE                         : 21
+#      FDPE                        : 4
+#      FDR                         : 48
+#      FDRE                        : 13
+#      FDRS                        : 1
+#      FDRSE                       : 1
+#      FDS                         : 10
+#      FDSE                        : 7
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 9
+#      IBUF                        : 4
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                      239  out of   4656     5%  
+ Number of Slice Flip Flops:            142  out of   9312     1%  
+ Number of 4 input LUTs:                432  out of   9312     4%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                  10  out of    232     4%  
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+iClk                               | BUFGP                  | 27    |
+Divisor/clk_1sTemp1                | BUFG                   | 86    |
+Divisor/clk_25Temp1                | BUFG                   | 29    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+iReset                             | IBUF                   | 11    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.848ns (Maximum Frequency: 146.033MHz)
+   Minimum input arrival time before clock: 6.524ns
+   Maximum output required time after clock: 5.255ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'iClk'
+  Clock period: 4.474ns (frequency: 223.503MHz)
+  Total number of paths / destination ports: 977 / 53
+-------------------------------------------------------------------------
+Delay:               4.474ns (Levels of Logic = 8)
+  Source:            Divisor/contador_5 (FF)
+  Destination:       Divisor/contador_0 (FF)
+  Source Clock:      iClk rising
+  Destination Clock: iClk rising
+
+  Data Path: Divisor/contador_5 to Divisor/contador_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  Divisor/contador_5 (Divisor/contador_5)
+     LUT1:I0->O            1   0.612   0.000  Divisor/contador_cmp_eq0000_wg_cy<0>_rt (Divisor/contador_cmp_eq0000_wg_cy<0>_rt)
+     MUXCY:S->O            1   0.404   0.000  Divisor/contador_cmp_eq0000_wg_cy<0> (Divisor/contador_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor/contador_cmp_eq0000_wg_cy<1> (Divisor/contador_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor/contador_cmp_eq0000_wg_cy<2> (Divisor/contador_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor/contador_cmp_eq0000_wg_cy<3> (Divisor/contador_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor/contador_cmp_eq0000_wg_cy<4> (Divisor/contador_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Divisor/contador_cmp_eq0000_wg_cy<5> (Divisor/contador_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O          26   0.289   1.071  Divisor/contador_cmp_eq0000_wg_cy<6> (Divisor/contador_cmp_eq0000)
+     FDR:R                     0.795          Divisor/contador_0
+    ----------------------------------------
+    Total                      4.474ns (2.871ns logic, 1.603ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Divisor/clk_1sTemp1'
+  Clock period: 6.576ns (frequency: 152.061MHz)
+  Total number of paths / destination ports: 1578 / 146
+-------------------------------------------------------------------------
+Delay:               6.576ns (Levels of Logic = 13)
+  Source:            Cuadro/rPosicionX_1 (FF)
+  Destination:       Cuadro/rPosicionX_8 (FF)
+  Source Clock:      Divisor/clk_1sTemp1 rising
+  Destination Clock: Divisor/clk_1sTemp1 rising
+
+  Data Path: Cuadro/rPosicionX_1 to Cuadro/rPosicionX_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             4   0.514   0.568  Cuadro/rPosicionX_1 (Cuadro/rPosicionX_1)
+     LUT3_L:I1->LO         1   0.612   0.103  MaquinaBicho/doblandoder2 (MaquinaBicho/doblandoder2)
+     LUT4:I3->O            5   0.612   0.541  MaquinaBicho/doblandoder12 (MaquinaBicho/doblandoder12)
+     LUT4:I3->O            7   0.612   0.671  MaquinaBicho/doblandoder36 (wireBajar)
+     LUT2:I1->O            1   0.612   0.000  Cuadro/Maccum_rPosicionX_lut<0> (Cuadro/Maccum_rPosicionX_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Cuadro/Maccum_rPosicionX_cy<0> (Cuadro/Maccum_rPosicionX_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<1> (Cuadro/Maccum_rPosicionX_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<2> (Cuadro/Maccum_rPosicionX_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<3> (Cuadro/Maccum_rPosicionX_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<4> (Cuadro/Maccum_rPosicionX_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<5> (Cuadro/Maccum_rPosicionX_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<6> (Cuadro/Maccum_rPosicionX_cy<6>)
+     MUXCY:CI->O           0   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<7> (Cuadro/Maccum_rPosicionX_cy<7>)
+     XORCY:CI->O           1   0.699   0.000  Cuadro/Maccum_rPosicionX_xor<8> (Result<8>1)
+     FDPE:D                    0.268          Cuadro/rPosicionX_8
+    ----------------------------------------
+    Total                      6.576ns (4.693ns logic, 1.883ns route)
+                                       (71.4% logic, 28.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Divisor/clk_25Temp1'
+  Clock period: 6.848ns (frequency: 146.033MHz)
+  Total number of paths / destination ports: 1269 / 62
+-------------------------------------------------------------------------
+Delay:               6.848ns (Levels of Logic = 6)
+  Source:            VGA/pixelY_0 (FF)
+  Destination:       PintarMonitor/rColorRGB_0 (FF)
+  Source Clock:      Divisor/clk_25Temp1 rising
+  Destination Clock: Divisor/clk_25Temp1 rising
+
+  Data Path: VGA/pixelY_0 to PintarMonitor/rColorRGB_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            12   0.514   0.969  VGA/pixelY_0 (VGA/pixelY_0)
+     LUT3:I0->O            2   0.612   0.383  PintarMonitor/rColorRGB_and000263_SW0 (N86)
+     LUT4_L:I3->LO         1   0.612   0.130  PintarMonitor/rColorRGB_and000263 (PintarMonitor/rColorRGB_and000263)
+     LUT4:I2->O            2   0.612   0.449  PintarMonitor/rColorRGB_and0002112 (PintarMonitor/rColorRGB_and0002112)
+     LUT2:I1->O            1   0.612   0.360  PintarMonitor/rColorRGB_and0002124 (PintarMonitor/rColorRGB_and0002)
+     LUT4_L:I3->LO         1   0.612   0.103  PintarMonitor/rColorRGB_mux0000<2>5 (PintarMonitor/rColorRGB_mux0000<2>5)
+     LUT4:I3->O            1   0.612   0.000  PintarMonitor/rColorRGB_mux0000<2>331 (PintarMonitor/rColorRGB_mux0000<2>33)
+     FDS:D                     0.268          PintarMonitor/rColorRGB_0
+    ----------------------------------------
+    Total                      6.848ns (4.454ns logic, 2.394ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Divisor/clk_1sTemp1'
+  Total number of paths / destination ports: 104 / 29
+-------------------------------------------------------------------------
+Offset:              6.524ns (Levels of Logic = 13)
+  Source:            iPosicionY2 (PAD)
+  Destination:       Cuadro/rPosicionX_8 (FF)
+  Destination Clock: Divisor/clk_1sTemp1 rising
+
+  Data Path: iPosicionY2 to Cuadro/rPosicionX_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.106   0.651  iPosicionY2_IBUF (iPosicionY2_IBUF)
+     LUT3_D:I0->O          4   0.612   0.529  MaquinaBicho/doblandoder33 (MaquinaBicho/doblandoder33)
+     LUT4:I2->O            7   0.612   0.671  MaquinaBicho/doblandoder36 (wireBajar)
+     LUT2:I1->O            1   0.612   0.000  Cuadro/Maccum_rPosicionX_lut<0> (Cuadro/Maccum_rPosicionX_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  Cuadro/Maccum_rPosicionX_cy<0> (Cuadro/Maccum_rPosicionX_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<1> (Cuadro/Maccum_rPosicionX_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<2> (Cuadro/Maccum_rPosicionX_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<3> (Cuadro/Maccum_rPosicionX_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<4> (Cuadro/Maccum_rPosicionX_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<5> (Cuadro/Maccum_rPosicionX_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<6> (Cuadro/Maccum_rPosicionX_cy<6>)
+     MUXCY:CI->O           0   0.051   0.000  Cuadro/Maccum_rPosicionX_cy<7> (Cuadro/Maccum_rPosicionX_cy<7>)
+     XORCY:CI->O           1   0.699   0.000  Cuadro/Maccum_rPosicionX_xor<8> (Result<8>1)
+     FDPE:D                    0.268          Cuadro/rPosicionX_8
+    ----------------------------------------
+    Total                      6.524ns (4.673ns logic, 1.851ns route)
+                                       (71.6% logic, 28.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Divisor/clk_25Temp1'
+  Total number of paths / destination ports: 8 / 5
+-------------------------------------------------------------------------
+Offset:              5.255ns (Levels of Logic = 2)
+  Source:            VGA/video (FF)
+  Destination:       colorB (PAD)
+  Source Clock:      Divisor/clk_25Temp1 rising
+
+  Data Path: VGA/video to colorB
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.514   0.603  VGA/video (VGA/video)
+     LUT2:I0->O            1   0.612   0.357  colorR1 (colorR_OBUF)
+     OBUF:I->O                 3.169          colorR_OBUF (colorR)
+    ----------------------------------------
+    Total                      5.255ns (4.295ns logic, 0.960ns route)
+                                       (81.7% logic, 18.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.45 secs
+ 
+--> 
+
+Total memory usage is 245628 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

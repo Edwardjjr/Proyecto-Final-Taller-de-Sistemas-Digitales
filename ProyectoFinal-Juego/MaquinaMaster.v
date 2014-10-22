@@ -19,10 +19,8 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module MaquinaMaster(
-    input iClk,
-    output reg oEnablePosicionX,
-    output reg oEnablePosicionY,
-    output reg oEnableLFSM,
+    input iClk,   
+    output reg oEnableLFSR,
 	 output reg oPintar,
 	 output reg oResetPintar,
 	 input iStop,
@@ -55,18 +53,14 @@ module MaquinaMaster(
 	 end
 
 	always@(estado)
-	 begin
-		oEnablePosicionX =0;
-		oEnablePosicionY =0;
-		oEnableLFSM = 0;
+	 begin		
+		oEnableLFSR = 0;
 		oPintar=0;
 		oResetPintar = 0;
 		
 		case(estado)
-			a:begin
-				oEnablePosicionX =1;
-				oEnablePosicionY =1;
-				oEnableLFSM = 1;
+			a:begin				
+				oEnableLFSR = 1;
 			end
 			c:begin
 				oPintar = 1;
