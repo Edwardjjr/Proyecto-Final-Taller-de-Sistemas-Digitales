@@ -49,6 +49,7 @@ module MaquinaMaster(
 			d:if(iStop)sigEstado = e;
 				else sigEstado = d;
 			e: sigEstado = a;
+			default: sigEstado = a;
 		endcase
 	 end
 

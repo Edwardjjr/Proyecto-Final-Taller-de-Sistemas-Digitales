@@ -26,13 +26,13 @@ module Jugador(
     input izq,
     output espacioAr,
 	 output espacioAb,
-    output [8:0] posicionY
+    output [8:0] posicionX
     );
 	 
 	 localparam XInicial = 278;
-	 localparam dx = 2;
+	 localparam dx = 9'd1;
 	 localparam xMin = 215;
-	 localparam xMax =425;
+	 localparam xMax =340;
 	 
 	 reg [8:0] rPosicionX = XInicial;
 	 

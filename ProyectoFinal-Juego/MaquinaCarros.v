@@ -58,6 +58,7 @@ module MaquinaCarros(
 					d:if(iEnableCero)sigEstado= e;
 						else sigEstado= c;
 					e:sigEstado = c;
+					default: sigEstado = a;
 					endcase
 				end
 			end

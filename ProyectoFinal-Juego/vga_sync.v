@@ -67,7 +67,7 @@ module vga_sync(
 		if (pixelX == (HT - 1))
 			pixelX <= 11'h000;
 		else
-			pixelX <= pixelX + 1;		
+			pixelX <= pixelX + 11'd1;		
 	end
 
 	//baja las lineas
@@ -77,7 +77,7 @@ module vga_sync(
 			pixelY <= 10'h000;
 		end
 		else if ((pixelX == (HT - 1)))
-			pixelY <= pixelY + 1;
+			pixelY <= pixelY + 10'd1;
 	end
 
 	

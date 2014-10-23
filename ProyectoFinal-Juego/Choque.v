@@ -19,19 +19,26 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module Choque(
-    input [9:0] iPosicionXT,
-    input [8:0] iPosicionYT,
-    input [8:0] iPosicionYC,
-    output reg oStop
+    input [9:0] iPosicionXT, //Posicion X del obstaculo
+    input [8:0] iPosicionYT, //Posicion Y del obstaculo
+    input [8:0] iPosicionXC,  //Posicion X del obstaculo
+
+    output reg oStop 
     );
 	 
-	 always@(iPosicionXT or iPosicionYC or iPosicionYT)
+	 always@(iPosicionXT or iPosicionXC or iPosicionYT)
 	 begin
 		oStop = 0;
-		if((iPosicionYC<= iPosicionYT) && (iPosicionXT <160) &&(iPosicionXT> 63))
-			oStop = 1;
-		if((iPosicionYC>= iPosicionYT+96) &&(iPosicionXT <160) &&(iPosicionXT> 63))
-			oStop = 1;
+		if(iPosicionXT > 320)
+		begin
+			if((iPosicionYT> 255) && (iPosicionYT <445) && (iPosicionXC> 245)&&(iPosicionXC> 245))
+				oStop = 1;
+		end
+		else
+		begin
+			if((iPosicionYT> 255) && (iPosicionYT <445) && (iPosicionXC> 225)&&(iPosicionXC> 310))
+				oStop = 1;
+		end
 	 end
 
 

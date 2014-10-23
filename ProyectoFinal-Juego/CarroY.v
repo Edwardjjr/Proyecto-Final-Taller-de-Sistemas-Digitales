@@ -45,7 +45,7 @@ module CarroY(
 			end
 		end
 		if(iSuma)begin
-			RegistroX = RegistroX + 1;
+			RegistroX = RegistroX + 9'd1;
 		end
 		if(iSalto)begin
 			RegistroY = -105;

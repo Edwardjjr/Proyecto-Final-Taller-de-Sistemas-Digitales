@@ -28,9 +28,9 @@ module Top(
     output sincV,
     output colorR,
     output colorG,
-    output colorB
-	 //output [3:0] conectorAn,
-	 //output [0:6] display
+    output colorB,
+	 output [3:0] conectorAn,
+	 output [0:6] display
 	  
 	 
 	 
@@ -45,7 +45,7 @@ wire EnableRegistrosPintarY;
 wire EnableConectorCero;
 
 // indica el choque 
-//wire EnableChoque;
+wire EnableChoque;
 
 wire EnableResetPintar;
 
@@ -60,8 +60,7 @@ wire EnablePintarMonitor;
 	
 //salidas de los Contadores	
 wire[8:0] SalidaContadorLFSM;
-wire[8:0] ConectorX;
-wire[8:0] ConectorY;
+
 
 
 
@@ -81,8 +80,8 @@ wire [10:0] ConectorPixelX;
 wire [9:0] ConectorPixelY;
 
 //wire display
-//wire[3:0] conectorInversorAux;
-//wire[0:6] conectorDisplay;
+wire[3:0] conectorInversorAux;
+wire[0:6] conectorDisplay;
 
 
 //conectores de numero 
@@ -106,7 +105,7 @@ wire wireSubir;
 wire wireBajar;
 wire sepuedesubir;
 wire sepuedebajar;
-wire[8:0] wireCuadroY;
+wire[8:0] wireCuadroX;
 wire wirePintarBirds;
 
 //conectores sumador
@@ -160,12 +159,12 @@ MaquinaCarros FSMMaquina (
 // Instantiate the module
 CarroX RegistroPintarX1 (
     .iClk(wireClk1s), 
-    .iPosicionX(10'd225), 
-    .iPosicionY(9'd285), 
+    .iPosicionX(10'd330), 
+    .iPosicionY(9'd240), 
     .iPosicionAuxX(ConectorPosicionX2), 
     .iPosicionAuxY(ConectorPosicionY2), 
     .iEnable(EnableRegistrosPintar), 
-    .iResta(EnableResta), 
+    .iSuma(EnableResta), 
     .iSalto(EnableSalto), 
     .oPosicionSalidaX(ConectorPosicionX1), 
     .oPosicionSalidaY(ConectorPosicionY1), 
@@ -176,10 +175,10 @@ CarroX RegistroPintarX1 (
 // Instantiate the module
 Carro2 RegistroPintarX2 (
     .iClk(wireClk1s), 
-    .iPosicionX(10'd330), 
+    .iPosicionX(10'd225), 
     .iPosicionY(9'd90), 
     .iPosicionAuxX(ConectorPosicionX3), 
-    .iPosicionAuxY(ConectorPosicionX3), 
+    .iPosicionAuxY(ConectorPosicionY3), 
     .iEnable(EnableRegistrosPintar), 
     .iSuma(EnableResta), 
     .iSalto(EnableSalto), 
@@ -190,7 +189,7 @@ Carro2 RegistroPintarX2 (
 // Instantiate the module RegistroPintarY
 CarroY RegistroPintarY (
     .iClk(wireClk1s), 
-    .iPosicionX(ConectorX), 
+    .iPosicionX(9'd105), 
     .iPosicionY(SalidaContadorLFSM), 
     .iEnable(EnableRegistrosPintarY), 
     .iSuma(EnableResta), 
@@ -224,7 +223,7 @@ Pintar PintarMonitor (
     .iPosicionY1(ConectorPosicionY1), 
     .iPosicionY2(ConectorPosicionY2),
 	 .iPosicionY3(ConectorPosicionY3),	
-    .iPosicionJugador(wireCuadroY), 
+    .iPosicionJugador(wireCuadroX), 
     .ColorRGB(colorRGB)
     );
 	 
@@ -240,7 +239,7 @@ Jugador Cuadro (
     .izq(wireBajar), 
     .espacioAr(sepuedesubir), 
     .espacioAb(sepuedebajar), 
-    .posicionY(wireCuadroY)
+    .posicionX(wireCuadroX)
     );
 	 
 // Instantiate the module
@@ -260,14 +259,14 @@ MaquinaJugador MaquinaBicho (
 	 
 	 
 	 
-/*// Instantiate the module choque
+// Instantiate the module choque
 Choque Choque (
     .iPosicionXT(ConectorPosicionX1), 
     .iPosicionYT(ConectorPosicionY1), 
-    .iPosicionYC(wireCuadroY), 
+    .iPosicionXC(wireCuadroX), 
     .oStop(EnableChoque)
     );	 	 
-	*/ 
+	
 
 // Instantiate the module 	Sumador
 CuentaPuntos Sumador (
@@ -278,18 +277,18 @@ CuentaPuntos Sumador (
     );
 	 
 	 
-	 /* Instantiate the module Display
+//Instantiate the module Display
 Display Display (
     .iClk(wireClk1s), 
     .inputs(ConectorNumero), 
     .outputs(conectorDisplay), 
     .an(conectorInversorAux)
-    );*/
+    );
 
 
 
-	//assign conectorAn = ~conectorInversorAux;
-	//assign display = ~conectorDisplay;
+	assign conectorAn = ~conectorInversorAux;
+	assign display = ~conectorDisplay;
 	//Asiganacion de salidas 
 	assign sincH = synH;
    assign sincV = synV;

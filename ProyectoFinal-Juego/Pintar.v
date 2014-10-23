@@ -40,7 +40,7 @@ module Pintar(
 	 localparam gap = 105;
 	 localparam lengthCuadro = 85; //Carros de tamaño 85x85 pixeles.
 	 localparam heigthCuadro = 90;
-	 localparam YJugador = 340; 
+	 localparam YJugador = 360; 
 	 
 	 always@(posedge clk)
 		begin

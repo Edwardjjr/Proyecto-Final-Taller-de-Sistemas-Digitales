@@ -1,0 +1,47 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/ProyectoFinal-Juego/Prueba_isim_beh.exe" -prj "G:/ProyectoFinal-Juego/Prueba_beh.prj" "work.Prueba" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/ProyectoFinal-Juego/vga_sync.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/Pintar.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/MaquinaMaster.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/MaquinaJugador.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/MaquinaCarros.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/LFSR.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/Jugador.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/DivisorFrecuencias.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/Display.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/CuentaPuntos.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/Choque.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/CarroY.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/CarroX.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/Carro2.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/Top.v" into library work
+Analyzing Verilog file "G:/ProyectoFinal-Juego/Prueba.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module DivisorFrecuencias
+Compiling module MaquinaMaster
+Compiling module LFSR
+Compiling module MaquinaCarros
+Compiling module CarroX
+Compiling module Carro2
+Compiling module CarroY
+Compiling module vga_sync
+Compiling module Pintar
+Compiling module Jugador
+Compiling module MaquinaJugador
+Compiling module Choque
+Compiling module CuentaPuntos
+Compiling module Display
+Compiling module Top
+Compiling module Prueba
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 17 Verilog Units
+Built simulation executable G:/ProyectoFinal-Juego/Prueba_isim_beh.exe
+Fuse Memory Usage: 28028 KB
+Fuse CPU Usage: 842 ms

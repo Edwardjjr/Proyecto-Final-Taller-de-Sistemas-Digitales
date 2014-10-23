@@ -41,7 +41,7 @@ module Carro2(
 			RegistroY = iPosicionY;
 		end
 		if(iSuma)begin
-			RegistroY = RegistroY + 1;			
+			RegistroY = RegistroY + 9'd1;			
 		end
 		if(iSalto)begin
 			RegistroX = iPosicionAuxX;

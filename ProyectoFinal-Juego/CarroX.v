@@ -25,7 +25,7 @@ module CarroX(
     input[9:0] iPosicionAuxX,
     input[8:0] iPosicionAuxY,
     input iEnable,
-    input iResta,
+    input iSuma,
     input iSalto,
     output[9:0] oPosicionSalidaX,
     output[8:0] oPosicionSalidaY,
@@ -44,11 +44,12 @@ module CarroX(
 			RegistroX = iPosicionX;
 			RegistroY = iPosicionY;
 		end
-		if(iResta)begin
-			RegistroY = RegistroY + 1;
-			if(RegistroY == 480)
+		if(iSuma)begin
+			RegistroY = RegistroY + 9'd1;
+			if(RegistroY == 480)begin
 				oEnableCuenta = 1;
-				oEnableCero = 1;				
+				oEnableCero = 1;
+			end
 		end
 		if(iSalto)begin
 			RegistroX = iPosicionAuxX;
