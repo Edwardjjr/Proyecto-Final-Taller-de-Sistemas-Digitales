@@ -31,12 +31,12 @@ module Choque(
 		oStop = 0;
 		if(iPosicionXT > 320)
 		begin
-			if((iPosicionYT> 255) && (iPosicionYT <445) && (iPosicionXC> 245)&&(iPosicionXC> 245))
+			if((iPosicionYT> 295) && (iPosicionYT <425) && (iPosicionXC> 265)&&(iPosicionXC<395))
 				oStop = 1;
 		end
 		else
 		begin
-			if((iPosicionYT> 255) && (iPosicionYT <445) && (iPosicionXC> 225)&&(iPosicionXC> 310))
+			if((iPosicionYT> 295) && (iPosicionYT <425) && (iPosicionXC>= 214)&&(iPosicionXC< 290))
 				oStop = 1;
 		end
 	 end

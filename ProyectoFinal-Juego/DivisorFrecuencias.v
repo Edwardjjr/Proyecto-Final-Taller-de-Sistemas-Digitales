@@ -27,16 +27,11 @@ module DivisorFrecuencias(
 	
 	 reg clk_25Temp = 0 ;
 	 reg [24:0] contador = 25'h0;
-	 reg [2:0]  contador2= 3'd0;
+	 //reg [2:0]  contador2= 3'd0;
 	 reg clk_1sTemp = 0;
 	 
-	 
-	 always@(posedge clk)begin
-		 contador2 <= contador2 + 3'd1;
-		 if (contador2 == 3'd4)begin
-			contador2 <= 3'd0;
-			clk_25Temp <= ~clk_25Temp;
-		 end
+	always@(posedge clk)begin
+		clk_25Temp <= ~clk_25Temp;
 	   
 		contador <= contador + 25'd1;
 		

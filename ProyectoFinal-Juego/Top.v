@@ -176,7 +176,7 @@ CarroX RegistroPintarX1 (
 Carro2 RegistroPintarX2 (
     .iClk(wireClk1s), 
     .iPosicionX(10'd225), 
-    .iPosicionY(9'd90), 
+    .iPosicionY(9'd0), 
     .iPosicionAuxX(ConectorPosicionX3), 
     .iPosicionAuxY(ConectorPosicionY3), 
     .iEnable(EnableRegistrosPintar), 
@@ -189,8 +189,8 @@ Carro2 RegistroPintarX2 (
 // Instantiate the module RegistroPintarY
 CarroY RegistroPintarY (
     .iClk(wireClk1s), 
-    .iPosicionX(9'd105), 
-    .iPosicionY(SalidaContadorLFSM), 
+    .iPosicionX(SalidaContadorLFSM), 
+    .iPosicionY(9'd0), 
     .iEnable(EnableRegistrosPintarY), 
     .iSuma(EnableResta), 
     .iSalto(EnableSalto), 
@@ -221,8 +221,7 @@ Pintar PintarMonitor (
     .iPosicionX2(ConectorPosicionX2),
     .iPosicionX3(ConectorPosicionX3),	 
     .iPosicionY1(ConectorPosicionY1), 
-    .iPosicionY2(ConectorPosicionY2),
-	 .iPosicionY3(ConectorPosicionY3),	
+    .iPosicionY2(ConectorPosicionY2),	
     .iPosicionJugador(wireCuadroX), 
     .ColorRGB(colorRGB)
     );

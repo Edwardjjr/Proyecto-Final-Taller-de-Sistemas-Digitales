@@ -29,7 +29,6 @@ module Pintar(
 	input[9:0] iPosicionX3,
 	input[8:0] iPosicionY1,
 	input[8:0] iPosicionY2,
-	input[8:0] iPosicionY3,
 	input[8:0] iPosicionJugador,	
 	output [2:0] ColorRGB
     );
@@ -37,10 +36,9 @@ module Pintar(
 	 reg [2:0] rColorRGB;//revisar si estos bits funca si no pasarlos a  [24:0]
 	 
 	 localparam cFondo = 0;	 //es para asignarle el color negro al fondo de la pantalla.
-	 localparam gap = 105;
-	 localparam lengthCuadro = 85; //Carros de tamaño 85x85 pixeles.
-	 localparam heigthCuadro = 90;
-	 localparam YJugador = 360; 
+	 localparam lengthCuadro = 65; //Carros de tamaño 85x85 pixeles.
+	 localparam heigthCuadro = 70;
+	 localparam YJugador = 390; 
 	 
 	 always@(posedge clk)
 		begin
@@ -54,7 +52,7 @@ module Pintar(
 					rColorRGB <= 2'd3; 
 				end
 				//Pintar borde verde derecho
-				if ((pixelY > 0) &&(pixelY < 480) &&(pixelX > 425)&&(pixelX < 640))begin
+				if ((pixelY > 0) &&(pixelY < 480) &&(pixelX > 405)&&(pixelX < 640))begin
 					rColorRGB <= 2'd3; 
 				end
 			
@@ -68,8 +66,8 @@ module Pintar(
 					rColorRGB <= 2'd1;//cTubo; 
 				end
 				
-				if(iPosicionY1 > 390)begin 
-					if ((pixelY > iPosicionY3) &&(pixelY < iPosicionY1-390) &&(pixelX > iPosicionX3)&&(pixelX < (iPosicionX3+lengthCuadro)))begin
+				if(iPosicionY1 > 410)begin 
+					if ((pixelY > 0) &&(pixelY < iPosicionY1-410) &&(pixelX > iPosicionX3)&&(pixelX < (iPosicionX3+lengthCuadro)))begin
 					rColorRGB <= 2'd1;//cTubo; 
 					end				
 				end				
