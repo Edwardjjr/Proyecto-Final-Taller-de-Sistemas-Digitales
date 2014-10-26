@@ -32,8 +32,6 @@ module Top(
 	 output [3:0] conectorAn,
 	 output [0:6] display
 	  
-	 
-	 
     );
 	 
 
@@ -86,7 +84,8 @@ wire[0:6] conectorDisplay;
 
 //conectores de numero 
 
-wire [15:0] ConectorNumero;
+wire [8:0] ConectorNumero;
+wire [11:0] ConectorNumeroDisplay;
 
 //conectores de modulo de pintar
 
@@ -272,17 +271,22 @@ CuentaPuntos Sumador (
 	 .iClk(wireClk1s),
     .iEnableContar(conectorEnableSumador), 
     .iReset(iReset), 
-    .Numero(ConectorNumero)
+    .Numero(ConectorNumero)//out 9bits
     );
 	 
-	 
-//Instantiate the module Display
+udDecenasCentenas convertidorBCD(
+	.clk(wireClk1s), 
+	.binario(ConectorNumero), //in 9 bits
+	.display(ConectorNumeroDisplay)//out 12bits
+);
+
+// Instantiate the module Display
 Display Display (
-    .iClk(wireClk1s), 
-    .inputs(ConectorNumero), 
-    .outputs(conectorDisplay), 
-    .an(conectorInversorAux)
-    );
+    .iClk(wireClk1s), //in
+    .inputs(ConectorNumeroDisplay), //in 12bits
+    .outputs(conectorDisplay), //out
+    .an(conectorInversorAux) //out
+ );
 
 
 

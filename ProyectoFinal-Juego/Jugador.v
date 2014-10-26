@@ -29,10 +29,10 @@ module Jugador(
     output [8:0] posicionX
     );
 	 
-	 localparam XInicial = 278;
+	 localparam XInicial = 9'd278;
 	 localparam dx = 9'd1;
-	 localparam xMin = 215;
-	 localparam xMax =340;
+	 localparam xMin = 9'd215;
+	 localparam xMax =9'd340;
 	 
 	 reg [8:0] rPosicionX = XInicial;
 	 

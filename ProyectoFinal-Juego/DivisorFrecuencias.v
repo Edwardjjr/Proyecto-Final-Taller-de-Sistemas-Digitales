@@ -25,17 +25,16 @@ module DivisorFrecuencias(
 	
     );
 	
-	 reg clk_25Temp = 0 ;
+	 //reg clk_25Temp = 0 ;
 	 reg [24:0] contador = 25'h0;
-	 //reg [2:0]  contador2= 3'd0;
 	 reg clk_1sTemp = 0;
+	 reg [1:0] contador100Mhz = 2'b0;
 	 
-	always@(posedge clk)begin
-		clk_25Temp <= ~clk_25Temp;
-	   
-		contador <= contador + 25'd1;
+	 always@(posedge clk)begin
+		contador <= contador + 1'b1;
+		contador100Mhz <= contador100Mhz + 1'b1;
 		
-		if (contador == 25'h249f0)begin
+		if (contador == 25'h493E0)begin
 			contador <= 11'd0;
 			clk_1sTemp <= ~clk_1sTemp;
 		end 
@@ -43,7 +42,8 @@ module DivisorFrecuencias(
 		
 	
 	
-	assign clk_25Mhz = clk_25Temp;
+	//assign clk_25Mhz = clk_25Temp;
+	assign clk_25Mhz = contador100Mhz[1];
 	assign clk_1s = clk_1sTemp;
 	
 endmodule

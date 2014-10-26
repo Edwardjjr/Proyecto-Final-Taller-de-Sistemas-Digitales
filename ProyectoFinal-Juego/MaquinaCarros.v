@@ -66,27 +66,27 @@ module MaquinaCarros(
 		
 	 always@(estado)
 	 begin
-		EnableX = 0;
-		EnableY = 0;
-		Suma = 0;
-		Salta = 0;
-		pintar = 1;
+		EnableX = 1'd0;
+		EnableY = 1'd0;
+		Suma = 1'd0;
+		Salta = 1'd0;
+		pintar = 1'd1;
 		case(estado)
 		a:begin
-			pintar = 0;
+			pintar = 1'd0;
 		end
 		
 		b:begin
-			pintar = 0;
-			EnableX = 1;
-			EnableY = 1;
+			pintar = 1'd0;
+			EnableX = 1'd1;
+			EnableY = 1'd1;
 		end
 		c:begin
-			Suma = 1;
+			Suma = 1'd1;
 		end
 		e:begin
-			Salta = 1;
-			EnableY = 1;
+			Salta = 1'd1;
+			EnableY = 1'd1;
 		end
 		endcase
 			

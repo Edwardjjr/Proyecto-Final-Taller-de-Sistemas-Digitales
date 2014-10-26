@@ -38,17 +38,17 @@ module CarroX(
 	 
 	 always@(posedge iClk)
 	 begin
-		oEnableCero = 0;
-		oEnableCuenta = 0;
+		oEnableCero = 1'd0;
+		oEnableCuenta = 1'd0;
 		if(iEnable)begin
 			RegistroX = iPosicionX;
 			RegistroY = iPosicionY;
 		end
 		if(iSuma)begin
 			RegistroY = RegistroY + 9'd1;
-			if(RegistroY == 480)begin
-				oEnableCuenta = 1;
-				oEnableCero = 1;
+			if(RegistroY == 10'd480)begin
+				oEnableCuenta = 1'd1;
+				oEnableCero = 1'd1;
 			end
 		end
 		if(iSalto)begin

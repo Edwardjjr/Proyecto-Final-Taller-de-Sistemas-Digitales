@@ -55,18 +55,18 @@ module MaquinaMaster(
 
 	always@(estado)
 	 begin		
-		oEnableLFSR = 0;
+		oEnableLFSR = 1'd0;
 		oPintar=0;
-		oResetPintar = 0;
+		oResetPintar = 1'd0;
 		
 		case(estado)
 			a:begin				
-				oEnableLFSR = 1;
+				oEnableLFSR = 1'd1;
 			end
 			c:begin
-				oPintar = 1;
+				oPintar = 1'd1;
 			end
-			e: oResetPintar = 1;
+			e: oResetPintar = 1'd1;
 		endcase
 		
 	 end

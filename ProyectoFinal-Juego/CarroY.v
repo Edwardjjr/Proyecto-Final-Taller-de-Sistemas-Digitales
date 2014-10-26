@@ -36,12 +36,12 @@ module CarroY(
 	 begin
 		if(iEnable)begin
 			RegistroY = iPosicionY;
-			if(iPosicionX < 256)
+			if(iPosicionX < 9'd256)
 			begin
-				RegistroX = 225;
+				RegistroX = 9'd225;
 			end
 			else begin
-				RegistroX = 330;
+				RegistroX = 9'd330;
 			end
 		end
 		/*if(iSuma)begin
@@ -49,12 +49,12 @@ module CarroY(
 		end*/
 		if(iSalto)begin
 			RegistroY = 9'd0;
-			if(iPosicionX < 200)
+			if(iPosicionX < 9'd200)
 			begin
-				RegistroX = 225;
+				RegistroX = 9'd225;
 			end
 			else begin
-				RegistroX = 330;
+				RegistroX = 9'd330;
 			end
 			
 		end

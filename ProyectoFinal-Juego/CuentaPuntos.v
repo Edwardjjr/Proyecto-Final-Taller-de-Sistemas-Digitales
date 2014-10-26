@@ -22,13 +22,13 @@ module CuentaPuntos(
 	 input iClk,
     input iEnableContar,
 	 input iReset,
-    output [15:0] Numero
+    output [8:0] Numero
     );
-	 reg[15:0] RegContador;
+	 reg[8:0] RegContador;
 	 always@(posedge iClk)
 	 begin
 		if(iReset)
-			RegContador <= 16'd0;
+			RegContador <= 8'd0;
 			
 		else if(iEnableContar)
 			RegContador <= RegContador + 1'b1;
