@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Mouse_Test instance_name (
+    .CLK_100MHZ(CLK_100MHZ), 
+    .reset(reset), 
+    .PS2_CLK(PS2_CLK), 
+    .PS2_DATA(PS2_DATA), 
+    .LED(LED)
+    );
+
+

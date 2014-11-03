@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.69 secs
+Total CPU time to Xst completion: 0.57 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.69 secs
+Total CPU time to Xst completion: 0.57 secs
  
 --> Reading design: Top.prj
 
@@ -105,37 +105,43 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\vga_sync.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\ps2_mouse_interface.v" into library work
+Parsing module <ps2_mouse_interface>.
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\vga_sync.v" into library work
 Parsing module <vga_sync>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\udDecenasCentenas.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\udDecenasCentenas.v" into library work
 Parsing module <udDecenasCentenas>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Pintar.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\selectorControles.v" into library work
+Parsing module <selectorControles>.
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Pintar.v" into library work
 Parsing module <Pintar>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaMaster.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Mouse_Test.v" into library work
+Parsing module <Mouse_Test>.
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaMaster.v" into library work
 Parsing module <MaquinaMaster>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaJugador.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaJugador.v" into library work
 Parsing module <MaquinaJugador>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaCarros.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaCarros.v" into library work
 Parsing module <MaquinaCarros>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\LFSR.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\LFSR.v" into library work
 Parsing module <LFSR>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Jugador.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Jugador.v" into library work
 Parsing module <Jugador>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\DivisorFrecuencias.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\DivisorFrecuencias.v" into library work
 Parsing module <DivisorFrecuencias>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Display.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Display.v" into library work
 Parsing module <Display>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CuentaPuntos.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CuentaPuntos.v" into library work
 Parsing module <CuentaPuntos>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Choque.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Choque.v" into library work
 Parsing module <Choque>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroY.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroY.v" into library work
 Parsing module <CarroY>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroX.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroX.v" into library work
 Parsing module <CarroX>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Carro2.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Carro2.v" into library work
 Parsing module <Carro2>.
-Analyzing Verilog file "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.v" into library work
 Parsing module <Top>.
 
 =========================================================================
@@ -143,6 +149,14 @@ Parsing module <Top>.
 =========================================================================
 
 Elaborating module <Top>.
+
+Elaborating module <selectorControles>.
+
+Elaborating module <MaquinaJugador>.
+
+Elaborating module <Mouse_Test>.
+
+Elaborating module <ps2_mouse_interface>.
 
 Elaborating module <DivisorFrecuencias>.
 
@@ -164,8 +178,6 @@ Elaborating module <Pintar>.
 
 Elaborating module <Jugador>.
 
-Elaborating module <MaquinaJugador>.
-
 Elaborating module <Choque>.
 
 Elaborating module <CuentaPuntos>.
@@ -179,194 +191,26 @@ Elaborating module <Display>.
 =========================================================================
 
 Synthesizing Unit <Top>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.v".
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.v".
     Summary:
 	no macro.
 Unit <Top> synthesized.
 
-Synthesizing Unit <DivisorFrecuencias>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\DivisorFrecuencias.v".
-    Found 2-bit register for signal <contador100Mhz>.
-    Found 1-bit register for signal <clk_1sTemp>.
-    Found 25-bit register for signal <contador>.
-    Found 25-bit adder for signal <contador[24]_GND_2_o_add_1_OUT> created at line 34.
-    Found 2-bit adder for signal <contador100Mhz[1]_GND_2_o_add_2_OUT> created at line 35.
+Synthesizing Unit <selectorControles>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\selectorControles.v".
+WARNING:Xst:647 - Input <mouse<1:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
-	inferred   2 Adder/Subtractor(s).
-	inferred  28 D-type flip-flop(s).
-Unit <DivisorFrecuencias> synthesized.
-
-Synthesizing Unit <MaquinaMaster>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaMaster.v".
-        a = 3'b000
-        b = 3'b001
-        c = 3'b010
-        d = 3'b011
-        e = 3'b100
-    Found 3-bit register for signal <estado>.
-    Found finite state machine <FSM_0> for signal <estado>.
-    -----------------------------------------------------------------------
-    | States             | 5                                              |
-    | Transitions        | 7                                              |
-    | Inputs             | 2                                              |
-    | Outputs            | 3                                              |
-    | Clock              | iClk (rising_edge)                             |
-    | Reset              | iReset (positive)                              |
-    | Reset type         | synchronous                                    |
-    | Reset State        | 000                                            |
-    | Encoding           | auto                                           |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Summary:
-	inferred   1 Finite State Machine(s).
-Unit <MaquinaMaster> synthesized.
-
-Synthesizing Unit <LFSR>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\LFSR.v".
-    Found 9-bit register for signal <data>.
-    Summary:
-	inferred   9 D-type flip-flop(s).
-	inferred   1 Multiplexer(s).
-Unit <LFSR> synthesized.
-
-Synthesizing Unit <MaquinaCarros>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaCarros.v".
-        a = 3'b000
-        b = 3'b001
-        c = 3'b010
-        d = 3'b011
-        e = 3'b100
-    Found 3-bit register for signal <estado>.
-    Found finite state machine <FSM_1> for signal <estado>.
-    -----------------------------------------------------------------------
-    | States             | 5                                              |
-    | Transitions        | 12                                             |
-    | Inputs             | 3                                              |
-    | Outputs            | 4                                              |
-    | Clock              | iClk (rising_edge)                             |
-    | Reset              | iReset (positive)                              |
-    | Reset type         | synchronous                                    |
-    | Reset State        | 000                                            |
-    | Encoding           | auto                                           |
-    | Implementation     | LUT                                            |
-    -----------------------------------------------------------------------
-    Summary:
-	inferred   1 Finite State Machine(s).
-Unit <MaquinaCarros> synthesized.
-
-Synthesizing Unit <CarroX>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroX.v".
-    Register <oEnableCero> equivalent to <oEnableCuenta> has been removed
-    Found 1-bit register for signal <oEnableCuenta>.
-    Found 10-bit register for signal <RegistroX>.
-    Found 9-bit register for signal <RegistroY>.
-    Found 9-bit adder for signal <_n0031> created at line 48.
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  20 D-type flip-flop(s).
-	inferred   4 Multiplexer(s).
-Unit <CarroX> synthesized.
-
-Synthesizing Unit <Carro2>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Carro2.v".
-    Found 9-bit register for signal <RegistroY>.
-    Found 10-bit register for signal <RegistroX>.
-    Found 9-bit adder for signal <RegistroY[8]_GND_7_o_add_3_OUT> created at line 44.
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred  19 D-type flip-flop(s).
-	inferred   4 Multiplexer(s).
-Unit <Carro2> synthesized.
-
-Synthesizing Unit <CarroY>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroY.v".
-WARNING:Xst:647 - Input <iSuma> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 10-bit register for signal <RegistroX>.
-    Found 9-bit register for signal <RegistroY>.
-    Found 9-bit comparator greater for signal <iPosicionX[8]_PWR_8_o_LessThan_2_o> created at line 39
-    Found 9-bit comparator greater for signal <iPosicionX[8]_GND_8_o_LessThan_6_o> created at line 52
-    Summary:
-	inferred  10 D-type flip-flop(s).
-	inferred   2 Comparator(s).
-	inferred   1 Multiplexer(s).
-Unit <CarroY> synthesized.
-
-Synthesizing Unit <vga_sync>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\vga_sync.v".
-    Found 10-bit register for signal <pixelY>.
-    Found 1-bit register for signal <sincH>.
-    Found 1-bit register for signal <sincV>.
-    Found 1-bit register for signal <videoH>.
-    Found 1-bit register for signal <videoV>.
-    Found 1-bit register for signal <video>.
-    Found 11-bit register for signal <pixelX>.
-    Found 11-bit adder for signal <pixelX[10]_GND_9_o_add_2_OUT> created at line 70.
-    Found 10-bit adder for signal <pixelY[9]_GND_9_o_add_9_OUT> created at line 80.
-    Summary:
-	inferred   2 Adder/Subtractor(s).
-	inferred  26 D-type flip-flop(s).
-Unit <vga_sync> synthesized.
-
-Synthesizing Unit <Pintar>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Pintar.v".
-    Found 3-bit register for signal <rColorRGB>.
-    Found 10-bit subtractor for signal <GND_10_o_GND_10_o_sub_28_OUT> created at line 70.
-    Found 10-bit adder for signal <n0084> created at line 61.
-    Found 11-bit adder for signal <n0086> created at line 61.
-    Found 10-bit adder for signal <n0088> created at line 65.
-    Found 11-bit adder for signal <n0090> created at line 65.
-    Found 11-bit adder for signal <n0095> created at line 70.
-    Found 10-bit adder for signal <n0109[9:0]> created at line 79.
-    Found 10-bit comparator greater for signal <GND_10_o_pixelY[9]_LessThan_2_o> created at line 51
-    Found 10-bit comparator greater for signal <pixelY[9]_GND_10_o_LessThan_3_o> created at line 51
-    Found 11-bit comparator greater for signal <GND_10_o_pixelX[10]_LessThan_4_o> created at line 51
-    Found 11-bit comparator greater for signal <pixelX[10]_GND_10_o_LessThan_5_o> created at line 51
-    Found 11-bit comparator greater for signal <GND_10_o_pixelX[10]_LessThan_9_o> created at line 55
-    Found 11-bit comparator greater for signal <pixelX[10]_GND_10_o_LessThan_10_o> created at line 55
-    Found 10-bit comparator greater for signal <GND_10_o_pixelY[9]_LessThan_12_o> created at line 61
-    Found 10-bit comparator greater for signal <pixelY[9]_BUS_0001_LessThan_14_o> created at line 61
-    Found 11-bit comparator greater for signal <GND_10_o_pixelX[10]_LessThan_15_o> created at line 61
-    Found 11-bit comparator greater for signal <pixelX[10]_BUS_0002_LessThan_17_o> created at line 61
-    Found 10-bit comparator greater for signal <GND_10_o_pixelY[9]_LessThan_19_o> created at line 65
-    Found 10-bit comparator greater for signal <pixelY[9]_BUS_0003_LessThan_21_o> created at line 65
-    Found 11-bit comparator greater for signal <GND_10_o_pixelX[10]_LessThan_22_o> created at line 65
-    Found 11-bit comparator greater for signal <pixelX[10]_BUS_0004_LessThan_24_o> created at line 65
-    Found 9-bit comparator greater for signal <PWR_10_o_iPosicionY1[8]_LessThan_26_o> created at line 69
-    Found 32-bit comparator greater for signal <GND_10_o_GND_10_o_LessThan_29_o> created at line 70
-    Found 11-bit comparator greater for signal <GND_10_o_pixelX[10]_LessThan_30_o> created at line 70
-    Found 11-bit comparator greater for signal <pixelX[10]_BUS_0005_LessThan_32_o> created at line 70
-    Found 10-bit comparator greater for signal <GND_10_o_pixelY[9]_LessThan_36_o> created at line 79
-    Found 10-bit comparator greater for signal <pixelY[9]_GND_10_o_LessThan_37_o> created at line 79
-    Found 11-bit comparator greater for signal <GND_10_o_pixelX[10]_LessThan_38_o> created at line 79
-    Found 11-bit comparator greater for signal <pixelX[10]_GND_10_o_LessThan_40_o> created at line 79
-    Summary:
-	inferred   7 Adder/Subtractor(s).
-	inferred   3 D-type flip-flop(s).
-	inferred  22 Comparator(s).
-	inferred   6 Multiplexer(s).
-Unit <Pintar> synthesized.
-
-Synthesizing Unit <Jugador>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Jugador.v".
-    Found 9-bit register for signal <rPosicionX>.
-    Found 9-bit subtractor for signal <rPosicionX[8]_GND_11_o_sub_1_OUT> created at line 47.
-    Found 9-bit adder for signal <rPosicionX[8]_GND_11_o_add_1_OUT> created at line 50.
-    Found 9-bit comparator lessequal for signal <n0004> created at line 55
-    Found 9-bit comparator lessequal for signal <n0006> created at line 56
-    Summary:
-	inferred   1 Adder/Subtractor(s).
-	inferred   9 D-type flip-flop(s).
-	inferred   2 Comparator(s).
-Unit <Jugador> synthesized.
+	inferred   2 Multiplexer(s).
+Unit <selectorControles> synthesized.
 
 Synthesizing Unit <MaquinaJugador>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaJugador.v".
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaJugador.v".
         s0 = 2'b00
         s1 = 2'b01
         s2 = 2'b10
         s3 = 2'b11
     Found 2-bit register for signal <state>.
-    Found finite state machine <FSM_2> for signal <state>.
+    Found finite state machine <FSM_0> for signal <state>.
     -----------------------------------------------------------------------
     | States             | 4                                              |
     | Transitions        | 11                                             |
@@ -384,50 +228,311 @@ Synthesizing Unit <MaquinaJugador>.
 	inferred   1 Finite State Machine(s).
 Unit <MaquinaJugador> synthesized.
 
+Synthesizing Unit <Mouse_Test>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Mouse_Test.v".
+    Summary:
+	no macro.
+Unit <Mouse_Test> synthesized.
+
+Synthesizing Unit <ps2_mouse_interface>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\ps2_mouse_interface.v".
+        WATCHDOG_TIMER_VALUE_PP = 20000
+        WATCHDOG_TIMER_BITS_PP = 15
+        DEBOUNCE_TIMER_VALUE_PP = 186
+        DEBOUNCE_TIMER_BITS_PP = 8
+        m1_clk_h = 0
+        m1_falling_edge = 1
+        m1_falling_wait = 3
+        m1_clk_l = 2
+        m1_rising_edge = 6
+        m1_rising_wait = 4
+        m2_reset = 14
+        m2_wait = 0
+        m2_gather = 1
+        m2_verify = 3
+        m2_use = 2
+        m2_hold_clk_l = 6
+        m2_data_low_1 = 4
+        m2_data_high_1 = 5
+        m2_data_low_2 = 7
+        m2_data_high_2 = 8
+        m2_data_low_3 = 9
+        m2_data_high_3 = 11
+        m2_error_no_ack = 15
+        m2_await_response = 10
+        m3_data_ready = 1'b1
+        m3_data_ready_ack = 0
+    Found 4-bit register for signal <m2_state>.
+    Found 6-bit register for signal <bit_count>.
+    Found 33-bit register for signal <q>.
+    Found 15-bit register for signal <watchdog_timer_count>.
+    Found 8-bit register for signal <debounce_timer_count>.
+    Found 1-bit register for signal <left_button>.
+    Found 1-bit register for signal <right_button>.
+    Found 9-bit register for signal <x_increment>.
+    Found 3-bit register for signal <m1_state>.
+    Found finite state machine <FSM_2> for signal <m2_state>.
+    -----------------------------------------------------------------------
+    | States             | 14                                             |
+    | Transitions        | 41                                             |
+    | Inputs             | 21                                             |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 1110                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <m1_state>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6-bit adder for signal <bit_count[5]_GND_5_o_add_40_OUT> created at line 485.
+    Found 15-bit adder for signal <watchdog_timer_count[14]_GND_5_o_add_50_OUT> created at line 502.
+    Found 8-bit adder for signal <debounce_timer_count[7]_GND_5_o_add_56_OUT> created at line 511.
+    Found 1-bit tristate buffer for signal <ps2_clk> created at line 231
+    Found 1-bit tristate buffer for signal <ps2_data> created at line 232
+    Found 6-bit comparator greater for signal <bit_count[5]_PWR_5_o_LessThan_17_o> created at line 340
+    Found 1-bit comparator equal for signal <q[9]_q[8]_equal_68_o> created at line 524
+    Found 1-bit comparator equal for signal <q[20]_q[19]_equal_70_o> created at line 525
+    Found 1-bit comparator equal for signal <q[31]_q[30]_equal_72_o> created at line 526
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  73 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   2 Tristate(s).
+	inferred   2 Finite State Machine(s).
+Unit <ps2_mouse_interface> synthesized.
+
+Synthesizing Unit <DivisorFrecuencias>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\DivisorFrecuencias.v".
+    Found 2-bit register for signal <contador100Mhz>.
+    Found 1-bit register for signal <clk_1sTemp>.
+    Found 25-bit register for signal <contador>.
+    Found 25-bit adder for signal <contador[24]_GND_8_o_add_1_OUT> created at line 35.
+    Found 2-bit adder for signal <contador100Mhz[1]_GND_8_o_add_2_OUT> created at line 36.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  28 D-type flip-flop(s).
+Unit <DivisorFrecuencias> synthesized.
+
+Synthesizing Unit <MaquinaMaster>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaMaster.v".
+        a = 3'b000
+        b = 3'b001
+        c = 3'b010
+        d = 3'b011
+        e = 3'b100
+    Found 3-bit register for signal <estado>.
+    Found finite state machine <FSM_3> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | iClk (rising_edge)                             |
+    | Reset              | iReset (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <MaquinaMaster> synthesized.
+
+Synthesizing Unit <LFSR>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\LFSR.v".
+    Found 9-bit register for signal <data>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <LFSR> synthesized.
+
+Synthesizing Unit <MaquinaCarros>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaCarros.v".
+        a = 3'b000
+        b = 3'b001
+        c = 3'b010
+        d = 3'b011
+        e = 3'b100
+    Found 3-bit register for signal <estado>.
+    Found finite state machine <FSM_4> for signal <estado>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 4                                              |
+    | Clock              | iClk (rising_edge)                             |
+    | Reset              | iReset (positive)                              |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 000                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <MaquinaCarros> synthesized.
+
+Synthesizing Unit <CarroX>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroX.v".
+    Register <oEnableCero> equivalent to <oEnableCuenta> has been removed
+    Found 1-bit register for signal <oEnableCuenta>.
+    Found 10-bit register for signal <RegistroX>.
+    Found 9-bit register for signal <RegistroY>.
+    Found 9-bit adder for signal <_n0031> created at line 48.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  20 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <CarroX> synthesized.
+
+Synthesizing Unit <Carro2>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Carro2.v".
+    Found 9-bit register for signal <RegistroY>.
+    Found 10-bit register for signal <RegistroX>.
+    Found 9-bit adder for signal <RegistroY[8]_GND_13_o_add_3_OUT> created at line 44.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+Unit <Carro2> synthesized.
+
+Synthesizing Unit <CarroY>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroY.v".
+WARNING:Xst:647 - Input <iSuma> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 10-bit register for signal <RegistroX>.
+    Found 9-bit register for signal <RegistroY>.
+    Found 9-bit comparator greater for signal <iPosicionX[8]_PWR_12_o_LessThan_2_o> created at line 39
+    Found 9-bit comparator greater for signal <iPosicionX[8]_GND_14_o_LessThan_6_o> created at line 52
+    Summary:
+	inferred  10 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <CarroY> synthesized.
+
+Synthesizing Unit <vga_sync>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\vga_sync.v".
+    Found 10-bit register for signal <pixelY>.
+    Found 1-bit register for signal <sincH>.
+    Found 1-bit register for signal <sincV>.
+    Found 1-bit register for signal <videoH>.
+    Found 1-bit register for signal <videoV>.
+    Found 1-bit register for signal <video>.
+    Found 11-bit register for signal <pixelX>.
+    Found 11-bit adder for signal <pixelX[10]_GND_15_o_add_2_OUT> created at line 70.
+    Found 10-bit adder for signal <pixelY[9]_GND_15_o_add_9_OUT> created at line 80.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <vga_sync> synthesized.
+
+Synthesizing Unit <Pintar>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Pintar.v".
+    Found 3-bit register for signal <rColorRGB>.
+    Found 10-bit subtractor for signal <GND_16_o_GND_16_o_sub_28_OUT> created at line 70.
+    Found 10-bit adder for signal <n0084> created at line 61.
+    Found 11-bit adder for signal <n0086> created at line 61.
+    Found 10-bit adder for signal <n0088> created at line 65.
+    Found 11-bit adder for signal <n0090> created at line 65.
+    Found 11-bit adder for signal <n0095> created at line 70.
+    Found 10-bit adder for signal <n0109[9:0]> created at line 79.
+    Found 10-bit comparator greater for signal <GND_16_o_pixelY[9]_LessThan_2_o> created at line 51
+    Found 10-bit comparator greater for signal <pixelY[9]_GND_16_o_LessThan_3_o> created at line 51
+    Found 11-bit comparator greater for signal <GND_16_o_pixelX[10]_LessThan_4_o> created at line 51
+    Found 11-bit comparator greater for signal <pixelX[10]_GND_16_o_LessThan_5_o> created at line 51
+    Found 11-bit comparator greater for signal <GND_16_o_pixelX[10]_LessThan_9_o> created at line 55
+    Found 11-bit comparator greater for signal <pixelX[10]_GND_16_o_LessThan_10_o> created at line 55
+    Found 10-bit comparator greater for signal <GND_16_o_pixelY[9]_LessThan_12_o> created at line 61
+    Found 10-bit comparator greater for signal <pixelY[9]_BUS_0001_LessThan_14_o> created at line 61
+    Found 11-bit comparator greater for signal <GND_16_o_pixelX[10]_LessThan_15_o> created at line 61
+    Found 11-bit comparator greater for signal <pixelX[10]_BUS_0002_LessThan_17_o> created at line 61
+    Found 10-bit comparator greater for signal <GND_16_o_pixelY[9]_LessThan_19_o> created at line 65
+    Found 10-bit comparator greater for signal <pixelY[9]_BUS_0003_LessThan_21_o> created at line 65
+    Found 11-bit comparator greater for signal <GND_16_o_pixelX[10]_LessThan_22_o> created at line 65
+    Found 11-bit comparator greater for signal <pixelX[10]_BUS_0004_LessThan_24_o> created at line 65
+    Found 9-bit comparator greater for signal <PWR_14_o_iPosicionY1[8]_LessThan_26_o> created at line 69
+    Found 32-bit comparator greater for signal <GND_16_o_GND_16_o_LessThan_29_o> created at line 70
+    Found 11-bit comparator greater for signal <GND_16_o_pixelX[10]_LessThan_30_o> created at line 70
+    Found 11-bit comparator greater for signal <pixelX[10]_BUS_0005_LessThan_32_o> created at line 70
+    Found 10-bit comparator greater for signal <GND_16_o_pixelY[9]_LessThan_36_o> created at line 79
+    Found 10-bit comparator greater for signal <pixelY[9]_GND_16_o_LessThan_37_o> created at line 79
+    Found 11-bit comparator greater for signal <GND_16_o_pixelX[10]_LessThan_38_o> created at line 79
+    Found 11-bit comparator greater for signal <pixelX[10]_GND_16_o_LessThan_40_o> created at line 79
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   3 D-type flip-flop(s).
+	inferred  22 Comparator(s).
+	inferred   6 Multiplexer(s).
+Unit <Pintar> synthesized.
+
+Synthesizing Unit <Jugador>.
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Jugador.v".
+    Found 9-bit register for signal <rPosicionX>.
+    Found 9-bit subtractor for signal <rPosicionX[8]_GND_17_o_sub_1_OUT> created at line 47.
+    Found 9-bit adder for signal <rPosicionX[8]_GND_17_o_add_1_OUT> created at line 50.
+    Found 9-bit comparator lessequal for signal <n0004> created at line 55
+    Found 9-bit comparator lessequal for signal <n0006> created at line 56
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   9 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <Jugador> synthesized.
+
 Synthesizing Unit <Choque>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Choque.v".
-    Found 10-bit comparator greater for signal <GND_14_o_iPosicionXT[9]_LessThan_1_o> created at line 32
-    Found 9-bit comparator greater for signal <PWR_15_o_iPosicionXC[8]_LessThan_4_o> created at line 34
-    Found 9-bit comparator greater for signal <iPosicionXC[8]_PWR_15_o_LessThan_5_o> created at line 34
-    Found 9-bit comparator greater for signal <PWR_15_o_iPosicionYT[8]_LessThan_6_o> created at line 39
-    Found 9-bit comparator greater for signal <iPosicionYT[8]_PWR_15_o_LessThan_7_o> created at line 39
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Choque.v".
+    Found 10-bit comparator greater for signal <GND_19_o_iPosicionXT[9]_LessThan_1_o> created at line 32
+    Found 9-bit comparator greater for signal <PWR_18_o_iPosicionXC[8]_LessThan_4_o> created at line 34
+    Found 9-bit comparator greater for signal <iPosicionXC[8]_PWR_18_o_LessThan_5_o> created at line 34
+    Found 9-bit comparator greater for signal <PWR_18_o_iPosicionYT[8]_LessThan_6_o> created at line 39
+    Found 9-bit comparator greater for signal <iPosicionYT[8]_PWR_18_o_LessThan_7_o> created at line 39
     Found 9-bit comparator lessequal for signal <n0008> created at line 39
-    Found 9-bit comparator greater for signal <iPosicionXC[8]_PWR_15_o_LessThan_9_o> created at line 39
+    Found 9-bit comparator greater for signal <iPosicionXC[8]_PWR_18_o_LessThan_9_o> created at line 39
     Summary:
 	inferred   7 Comparator(s).
 	inferred   1 Multiplexer(s).
 Unit <Choque> synthesized.
 
 Synthesizing Unit <CuentaPuntos>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CuentaPuntos.v".
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CuentaPuntos.v".
     Found 9-bit register for signal <RegContador>.
-    Found 9-bit adder for signal <RegContador[8]_GND_15_o_add_1_OUT> created at line 34.
+    Found 9-bit adder for signal <RegContador[8]_GND_20_o_add_1_OUT> created at line 34.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   9 D-type flip-flop(s).
 Unit <CuentaPuntos> synthesized.
 
 Synthesizing Unit <udDecenasCentenas>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\udDecenasCentenas.v".
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\udDecenasCentenas.v".
     Found 11-bit register for signal <display>.
     Found 4-bit adder for signal <n0084> created at line 45.
-    Found 4-bit adder for signal <binario[8]_GND_16_o_add_4_OUT> created at line 45.
-    Found 4-bit adder for signal <binario[7]_GND_16_o_add_6_OUT> created at line 45.
-    Found 4-bit adder for signal <binario[6]_GND_16_o_add_8_OUT> created at line 45.
+    Found 4-bit adder for signal <binario[8]_GND_21_o_add_4_OUT> created at line 45.
+    Found 4-bit adder for signal <binario[7]_GND_21_o_add_6_OUT> created at line 45.
+    Found 4-bit adder for signal <binario[6]_GND_21_o_add_8_OUT> created at line 45.
     Found 4-bit adder for signal <n0092> created at line 49.
-    Found 4-bit adder for signal <binario[5]_GND_16_o_add_12_OUT> created at line 45.
-    Found 4-bit adder for signal <GND_16_o_GND_16_o_add_14_OUT> created at line 49.
-    Found 4-bit adder for signal <binario[4]_GND_16_o_add_16_OUT> created at line 45.
-    Found 4-bit adder for signal <binario[8]_GND_16_o_add_18_OUT> created at line 49.
-    Found 3-bit comparator greater for signal <PWR_17_o_binario[8]_LessThan_2_o> created at line 44
-    Found 4-bit comparator greater for signal <GND_16_o_binario[8]_LessThan_4_o> created at line 44
-    Found 4-bit comparator greater for signal <GND_16_o_binario[7]_LessThan_6_o> created at line 44
-    Found 4-bit comparator greater for signal <GND_16_o_binario[6]_LessThan_8_o> created at line 44
-    Found 3-bit comparator greater for signal <PWR_17_o_GND_16_o_LessThan_10_o> created at line 48
-    Found 4-bit comparator greater for signal <GND_16_o_binario[5]_LessThan_12_o> created at line 44
-    Found 4-bit comparator greater for signal <GND_16_o_GND_16_o_LessThan_14_o> created at line 48
-    Found 4-bit comparator greater for signal <GND_16_o_binario[4]_LessThan_16_o> created at line 44
-    Found 4-bit comparator greater for signal <GND_16_o_binario[8]_LessThan_18_o> created at line 48
+    Found 4-bit adder for signal <binario[5]_GND_21_o_add_12_OUT> created at line 45.
+    Found 4-bit adder for signal <GND_21_o_GND_21_o_add_14_OUT> created at line 49.
+    Found 4-bit adder for signal <binario[4]_GND_21_o_add_16_OUT> created at line 45.
+    Found 4-bit adder for signal <binario[8]_GND_21_o_add_18_OUT> created at line 49.
+    Found 3-bit comparator greater for signal <PWR_20_o_binario[8]_LessThan_2_o> created at line 44
+    Found 4-bit comparator greater for signal <GND_21_o_binario[8]_LessThan_4_o> created at line 44
+    Found 4-bit comparator greater for signal <GND_21_o_binario[7]_LessThan_6_o> created at line 44
+    Found 4-bit comparator greater for signal <GND_21_o_binario[6]_LessThan_8_o> created at line 44
+    Found 3-bit comparator greater for signal <PWR_20_o_GND_21_o_LessThan_10_o> created at line 48
+    Found 4-bit comparator greater for signal <GND_21_o_binario[5]_LessThan_12_o> created at line 44
+    Found 4-bit comparator greater for signal <GND_21_o_GND_21_o_LessThan_14_o> created at line 48
+    Found 4-bit comparator greater for signal <GND_21_o_binario[4]_LessThan_16_o> created at line 44
+    Found 4-bit comparator greater for signal <GND_21_o_binario[8]_LessThan_18_o> created at line 48
     WARNING:Xst:2404 -  FFs/Latches <display<11:11>> (without init value) have a constant value of 0 in block <udDecenasCentenas>.
     Summary:
 	inferred   9 Adder/Subtractor(s).
@@ -437,12 +542,12 @@ Synthesizing Unit <udDecenasCentenas>.
 Unit <udDecenasCentenas> synthesized.
 
 Synthesizing Unit <Display>.
-    Related source file is "C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Display.v".
+    Related source file is "C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Display.v".
     Found 2-bit register for signal <posicion>.
     Found 4-bit register for signal <selector>.
     Found 4-bit register for signal <an>.
-    Found 2-bit adder for signal <posicion[1]_GND_17_o_add_3_OUT> created at line 48.
-    Found 4x4-bit Read Only RAM for signal <posicion[1]_PWR_18_o_wide_mux_4_OUT>
+    Found 2-bit adder for signal <posicion[1]_GND_22_o_add_3_OUT> created at line 48.
+    Found 4x4-bit Read Only RAM for signal <posicion[1]_PWR_21_o_wide_mux_4_OUT>
     Found 16x7-bit Read Only RAM for signal <copyOuputs>
     Summary:
 	inferred   2 RAM(s).
@@ -458,41 +563,53 @@ Macro Statistics
 # RAMs                                                 : 2
  16x7-bit single-port Read Only RAM                    : 1
  4x4-bit single-port Read Only RAM                     : 1
-# Adders/Subtractors                                   : 25
+# Adders/Subtractors                                   : 28
  10-bit adder                                          : 4
  10-bit subtractor                                     : 1
  11-bit adder                                          : 4
+ 15-bit adder                                          : 1
  2-bit adder                                           : 2
  25-bit adder                                          : 1
  4-bit adder                                           : 9
+ 6-bit adder                                           : 1
+ 8-bit adder                                           : 1
  9-bit adder                                           : 3
  9-bit addsub                                          : 1
-# Registers                                            : 24
- 1-bit register                                        : 7
+# Registers                                            : 31
+ 1-bit register                                        : 9
  10-bit register                                       : 4
  11-bit register                                       : 2
+ 15-bit register                                       : 1
  2-bit register                                        : 2
  25-bit register                                       : 1
  3-bit register                                        : 1
+ 33-bit register                                       : 1
  4-bit register                                        : 2
- 9-bit register                                        : 5
-# Comparators                                          : 42
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+ 9-bit register                                        : 6
+# Comparators                                          : 46
+ 1-bit comparator equal                                : 3
  10-bit comparator greater                             : 9
  11-bit comparator greater                             : 12
  3-bit comparator greater                              : 2
  32-bit comparator greater                             : 1
  4-bit comparator greater                              : 7
+ 6-bit comparator greater                              : 1
  9-bit comparator greater                              : 8
  9-bit comparator lessequal                            : 3
-# Multiplexers                                         : 60
- 1-bit 2-to-1 multiplexer                              : 42
+# Multiplexers                                         : 62
+ 1-bit 2-to-1 multiplexer                              : 44
  10-bit 2-to-1 multiplexer                             : 3
  3-bit 2-to-1 multiplexer                              : 6
  4-bit 2-to-1 multiplexer                              : 2
  9-bit 2-to-1 multiplexer                              : 7
-# FSMs                                                 : 3
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# Tristates                                            : 2
+ 1-bit tristate buffer                                 : 2
+# FSMs                                                 : 5
+# Xors                                                 : 6
+ 1-bit xor2                                            : 3
+ 1-bit xor8                                            : 3
 
 =========================================================================
 
@@ -500,6 +617,9 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+WARNING:Xst:2677 - Node <x_increment_5> of sequential type is unconnected in block <mouse>.
+WARNING:Xst:2677 - Node <x_increment_6> of sequential type is unconnected in block <mouse>.
+WARNING:Xst:2677 - Node <x_increment_7> of sequential type is unconnected in block <mouse>.
 
 Synthesizing (advanced) Unit <CuentaPuntos>.
 The following registers are absorbed into counter <RegContador>: 1 register on signal <RegContador>.
@@ -518,7 +638,7 @@ INFO:Xst:3231 - The small RAM <Mram_copyOuputs> will be implemented on LUTs in o
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to signal <copyOuputs>    |          |
     -----------------------------------------------------------------------
-INFO:Xst:3231 - The small RAM <Mram_posicion[1]_PWR_18_o_wide_mux_4_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+INFO:Xst:3231 - The small RAM <Mram_posicion[1]_PWR_21_o_wide_mux_4_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
@@ -535,6 +655,12 @@ Synthesizing (advanced) Unit <DivisorFrecuencias>.
 The following registers are absorbed into counter <contador100Mhz>: 1 register on signal <contador100Mhz>.
 The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
 Unit <DivisorFrecuencias> synthesized (advanced).
+
+Synthesizing (advanced) Unit <ps2_mouse_interface>.
+The following registers are absorbed into counter <debounce_timer_count>: 1 register on signal <debounce_timer_count>.
+The following registers are absorbed into counter <watchdog_timer_count>: 1 register on signal <watchdog_timer_count>.
+The following registers are absorbed into counter <bit_count>: 1 register on signal <bit_count>.
+Unit <ps2_mouse_interface> synthesized (advanced).
 
 Synthesizing (advanced) Unit <vga_sync>.
 The following registers are absorbed into counter <pixelX>: 1 register on signal <pixelX>.
@@ -555,31 +681,37 @@ Macro Statistics
  4-bit adder                                           : 9
  9-bit adder                                           : 2
  9-bit addsub                                          : 1
-# Counters                                             : 6
+# Counters                                             : 9
  10-bit up counter                                     : 1
  11-bit up counter                                     : 1
+ 15-bit up counter                                     : 1
  2-bit up counter                                      : 2
  25-bit up counter                                     : 1
+ 6-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
  9-bit up counter                                      : 1
-# Registers                                            : 95
- Flip-Flops                                            : 95
-# Comparators                                          : 42
+# Registers                                            : 139
+ Flip-Flops                                            : 139
+# Comparators                                          : 46
+ 1-bit comparator equal                                : 3
  10-bit comparator greater                             : 9
  11-bit comparator greater                             : 12
  3-bit comparator greater                              : 2
  32-bit comparator greater                             : 1
  4-bit comparator greater                              : 7
+ 6-bit comparator greater                              : 1
  9-bit comparator greater                              : 8
  9-bit comparator lessequal                            : 3
-# Multiplexers                                         : 59
- 1-bit 2-to-1 multiplexer                              : 41
+# Multiplexers                                         : 61
+ 1-bit 2-to-1 multiplexer                              : 43
  10-bit 2-to-1 multiplexer                             : 3
  3-bit 2-to-1 multiplexer                              : 6
  4-bit 2-to-1 multiplexer                              : 2
  9-bit 2-to-1 multiplexer                              : 7
-# FSMs                                                 : 3
-# Xors                                                 : 1
- 1-bit xor2                                            : 1
+# FSMs                                                 : 5
+# Xors                                                 : 6
+ 1-bit xor2                                            : 3
+ 1-bit xor8                                            : 3
 
 =========================================================================
 
@@ -587,7 +719,7 @@ Macro Statistics
 *                         Low Level Synthesis                           *
 =========================================================================
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <FSM_1> on signal <estado[1:3]> with user encoding.
+Optimizing FSM <FSM_4> on signal <estado[1:3]> with user encoding.
 -------------------
  State | Encoding
 -------------------
@@ -598,7 +730,7 @@ Optimizing FSM <FSM_1> on signal <estado[1:3]> with user encoding.
  100   | 100
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <FSM_0> on signal <estado[1:3]> with gray encoding.
+Optimizing FSM <FSM_3> on signal <estado[1:3]> with gray encoding.
 -------------------
  State | Encoding
 -------------------
@@ -609,7 +741,7 @@ Optimizing FSM <FSM_0> on signal <estado[1:3]> with gray encoding.
  100   | 110
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <MaquinaBicho/FSM_2> on signal <state[1:2]> with user encoding.
+Optimizing FSM <MaquinaBicho/FSM_0> on signal <state[1:2]> with user encoding.
 -------------------
  State | Encoding
 -------------------
@@ -618,22 +750,58 @@ Optimizing FSM <MaquinaBicho/FSM_2> on signal <state[1:2]> with user encoding.
  10    | 10
  11    | 11
 -------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <controlMouse/mouse/FSM_1> on signal <m1_state[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 011   | 011
+ 010   | 010
+ 110   | 110
+ 100   | 100
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <controlMouse/mouse/FSM_2> on signal <m2_state[1:4]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 1110  | 0000
+ 0000  | 0001
+ 0001  | 0011
+ 0110  | 0010
+ 0011  | 0110
+ 0010  | 0111
+ 0100  | 0101
+ 0101  | 0100
+ 0111  | 1100
+ 1000  | 1101
+ 1001  | 1111
+ 1011  | 1110
+ 1010  | 1010
+ 1111  | 1011
+-------------------
 WARNING:Xst:1710 - FF/Latch <RegistroX_2> (without init value) has a constant value of 0 in block <CarroY>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RegistroX_4> (without init value) has a constant value of 0 in block <CarroY>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RegistroX_6> (without init value) has a constant value of 1 in block <CarroY>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <RegistroX_9> (without init value) has a constant value of 0 in block <CarroY>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <rColorRGB_0> in Unit <Pintar> is equivalent to the following FF/Latch, which will be removed : <rColorRGB_1> 
 INFO:Xst:2261 - The FF/Latch <RegistroX_0> in Unit <CarroY> is equivalent to the following 2 FFs/Latches, which will be removed : <RegistroX_5> <RegistroX_7> 
 INFO:Xst:2261 - The FF/Latch <RegistroX_1> in Unit <CarroY> is equivalent to the following 2 FFs/Latches, which will be removed : <RegistroX_3> <RegistroX_8> 
+WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_7> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_6> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_5> of sequential type is unconnected in block <Top>.
 
 Optimizing unit <Top> ...
 
-Optimizing unit <Jugador> ...
-
 Optimizing unit <MaquinaJugador> ...
 
-Optimizing unit <LFSR> ...
+Optimizing unit <Jugador> ...
 
 Optimizing unit <Pintar> ...
+
+Optimizing unit <LFSR> ...
 
 Optimizing unit <CarroX> ...
 
@@ -652,20 +820,24 @@ WARNING:Xst:1710 - FF/Latch <RegistroPintarX2/RegistroX_9> (without init value) 
 WARNING:Xst:1710 - FF/Latch <RegistroPintarX2/RegistroX_6> (without init value) has a constant value of 1 in block <Top>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <RegistroPintarX2/RegistroX_4> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <RegistroPintarX2/RegistroX_2> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Divisor/contador_19> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Divisor/contador_20> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Divisor/contador_21> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Divisor/contador_22> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Divisor/contador_23> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Divisor/contador_24> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <RegistroPintarX2/RegistroX_7> in Unit <Top> is equivalent to the following 2 FFs/Latches, which will be removed : <RegistroPintarX2/RegistroX_5> <RegistroPintarX2/RegistroX_0> 
 INFO:Xst:2261 - The FF/Latch <RegistroPintarX2/RegistroX_8> in Unit <Top> is equivalent to the following 2 FFs/Latches, which will be removed : <RegistroPintarX2/RegistroX_3> <RegistroPintarX2/RegistroX_1> 
 INFO:Xst:2261 - The FF/Latch <RegistroPintarX1/RegistroX_7> in Unit <Top> is equivalent to the following 2 FFs/Latches, which will be removed : <RegistroPintarX1/RegistroX_5> <RegistroPintarX1/RegistroX_0> 
 INFO:Xst:2261 - The FF/Latch <RegistroPintarX1/RegistroX_8> in Unit <Top> is equivalent to the following 2 FFs/Latches, which will be removed : <RegistroPintarX1/RegistroX_3> <RegistroPintarX1/RegistroX_1> 
-INFO:Xst:3203 - The FF/Latch <Cuadro/rPosicionX_7> in Unit <Top> is the opposite to the following FF/Latch, which will be removed : <Cuadro/rPosicionX_8> 
+INFO:Xst:3203 - The FF/Latch <Cuadro/rPosicionX_8> in Unit <Top> is the opposite to the following FF/Latch, which will be removed : <Cuadro/rPosicionX_7> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 6.
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 7.
+FlipFlop VGA/pixelX_0 has been replicated 1 time(s)
+FlipFlop VGA/pixelX_1 has been replicated 1 time(s)
 FlipFlop VGA/pixelX_4 has been replicated 1 time(s)
-FlipFlop VGA/pixelX_5 has been replicated 1 time(s)
-FlipFlop VGA/pixelX_6 has been replicated 2 time(s)
-FlipFlop VGA/pixelX_7 has been replicated 1 time(s)
-FlipFlop VGA/pixelX_9 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -673,8 +845,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 143
- Flip-Flops                                            : 143
+# Registers                                            : 210
+ Flip-Flops                                            : 210
 
 =========================================================================
 
@@ -697,34 +869,35 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 623
+# BELS                             : 722
 #      GND                         : 1
-#      INV                         : 22
-#      LUT1                        : 51
-#      LUT2                        : 37
-#      LUT3                        : 29
-#      LUT4                        : 160
-#      LUT5                        : 51
-#      LUT6                        : 93
-#      MUXCY                       : 121
-#      MUXF7                       : 2
+#      INV                         : 25
+#      LUT1                        : 66
+#      LUT2                        : 39
+#      LUT3                        : 39
+#      LUT4                        : 166
+#      LUT5                        : 62
+#      LUT6                        : 114
+#      MUXCY                       : 134
+#      MUXF7                       : 3
 #      VCC                         : 1
-#      XORCY                       : 55
-# FlipFlops/Latches                : 143
-#      FD                          : 54
+#      XORCY                       : 72
+# FlipFlops/Latches                : 210
+#      FD                          : 57
 #      FDC                         : 2
-#      FDCE                        : 5
+#      FDCE                        : 4
 #      FDE                         : 11
-#      FDPE                        : 3
-#      FDR                         : 56
-#      FDRE                        : 9
-#      FDS                         : 3
+#      FDPE                        : 4
+#      FDR                         : 59
+#      FDRE                        : 71
+#      FDS                         : 2
 # Clock Buffers                    : 3
 #      BUFG                        : 2
 #      BUFGP                       : 1
-# IO Buffers                       : 20
-#      IBUF                        : 4
-#      OBUF                        : 16
+# IO Buffers                       : 31
+#      IBUF                        : 5
+#      IOBUF                       : 2
+#      OBUF                        : 24
 
 Device utilization summary:
 ---------------------------
@@ -733,20 +906,20 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             143  out of  18224     0%  
- Number of Slice LUTs:                  443  out of   9112     4%  
-    Number used as Logic:               443  out of   9112     4%  
+ Number of Slice Registers:             210  out of  18224     1%  
+ Number of Slice LUTs:                  511  out of   9112     5%  
+    Number used as Logic:               511  out of   9112     5%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    452
-   Number with an unused Flip Flop:     309  out of    452    68%  
-   Number with an unused LUT:             9  out of    452     1%  
-   Number of fully used LUT-FF pairs:   134  out of    452    29%  
-   Number of unique control sets:        21
+ Number of LUT Flip Flop pairs used:    544
+   Number with an unused Flip Flop:     334  out of    544    61%  
+   Number with an unused LUT:            33  out of    544     6%  
+   Number of fully used LUT-FF pairs:   177  out of    544    32%  
+   Number of unique control sets:        24
 
 IO Utilization: 
- Number of IOs:                          21
- Number of bonded IOBs:                  21  out of    232     9%  
+ Number of IOs:                          32
+ Number of bonded IOBs:                  32  out of    232    13%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
@@ -772,9 +945,9 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-iClk                               | BUFGP                  | 28    |
+iClk                               | BUFGP                  | 99    |
 Divisor/clk_1sTemp                 | BUFG                   | 80    |
-Divisor/contador100Mhz_1           | BUFG                   | 35    |
+Divisor/contador100Mhz_1           | BUFG                   | 31    |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -785,9 +958,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: 5.681ns (Maximum Frequency: 176.013MHz)
-   Minimum input arrival time before clock: 5.516ns
-   Maximum output required time after clock: 4.821ns
+   Minimum period: 5.024ns (Maximum Frequency: 199.043MHz)
+   Minimum input arrival time before clock: 5.581ns
+   Maximum output required time after clock: 5.029ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -796,98 +969,121 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'iClk'
-  Clock period: 4.394ns (frequency: 227.582MHz)
-  Total number of paths / destination ports: 979 / 54
+  Clock period: 4.629ns (frequency: 216.018MHz)
+  Total number of paths / destination ports: 1562 / 209
 -------------------------------------------------------------------------
-Delay:               4.394ns (Levels of Logic = 2)
-  Source:            Divisor/contador_8 (FF)
-  Destination:       Divisor/contador_0 (FF)
+Delay:               4.629ns (Levels of Logic = 3)
+  Source:            controlMouse/mouse/watchdog_timer_count_9 (FF)
+  Destination:       controlMouse/mouse/bit_count_0 (FF)
   Source Clock:      iClk rising
   Destination Clock: iClk rising
 
-  Data Path: Divisor/contador_8 to Divisor/contador_0
+  Data Path: controlMouse/mouse/watchdog_timer_count_9 to controlMouse/mouse/bit_count_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              2   0.447   0.981  Divisor/contador_8 (Divisor/contador_8)
-     LUT6:I0->O            1   0.203   0.924  Divisor/contador[24]_GND_2_o_equal_4_o<24>1 (Divisor/contador[24]_GND_2_o_equal_4_o<24>)
-     LUT5:I0->O           26   0.203   1.206  Divisor/contador[24]_GND_2_o_equal_4_o<24>5 (Divisor/contador[24]_GND_2_o_equal_4_o)
-     FDR:R                     0.430          Divisor/contador_0
+     FDRE:C->Q             2   0.447   0.961  controlMouse/mouse/watchdog_timer_count_9 (controlMouse/mouse/watchdog_timer_count_9)
+     LUT5:I0->O            2   0.203   0.721  controlMouse/mouse/watchdog_timer_done<14>1 (controlMouse/mouse/watchdog_timer_done<14>)
+     LUT6:I4->O            5   0.203   0.715  controlMouse/mouse/watchdog_timer_done<14>3 (controlMouse/mouse/watchdog_timer_done)
+     LUT4:I3->O            6   0.205   0.744  controlMouse/mouse/Mcount_bit_count_val1 (controlMouse/mouse/Mcount_bit_count_val)
+     FDRE:R                    0.430          controlMouse/mouse/bit_count_0
     ----------------------------------------
-    Total                      4.394ns (1.283ns logic, 3.111ns route)
-                                       (29.2% logic, 70.8% route)
+    Total                      4.629ns (1.488ns logic, 3.141ns route)
+                                       (32.1% logic, 67.9% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Divisor/clk_1sTemp'
-  Clock period: 4.996ns (frequency: 200.178MHz)
-  Total number of paths / destination ports: 1475 / 111
+  Clock period: 5.024ns (frequency: 199.043MHz)
+  Total number of paths / destination ports: 1325 / 111
 -------------------------------------------------------------------------
-Delay:               4.996ns (Levels of Logic = 3)
-  Source:            Cuadro/rPosicionX_0 (FF)
-  Destination:       Cuadro/rPosicionX_7 (FF)
+Delay:               5.024ns (Levels of Logic = 3)
+  Source:            Cuadro/rPosicionX_5 (FF)
+  Destination:       Cuadro/rPosicionX_8 (FF)
   Source Clock:      Divisor/clk_1sTemp rising
   Destination Clock: Divisor/clk_1sTemp rising
 
-  Data Path: Cuadro/rPosicionX_0 to Cuadro/rPosicionX_7
+  Data Path: Cuadro/rPosicionX_5 to Cuadro/rPosicionX_8
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q            15   0.447   1.326  Cuadro/rPosicionX_0 (Cuadro/rPosicionX_0)
-     LUT6:I1->O            8   0.203   0.803  MaquinaBicho/Mmux_doblandoder12 (MaquinaBicho/Mmux_doblandoder11)
-     LUT4:I3->O            4   0.205   0.684  MaquinaBicho/Mmux_doblandoder13 (wireBajar)
+     FDCE:C->Q            14   0.447   1.322  Cuadro/rPosicionX_5 (Cuadro/rPosicionX_5)
+     LUT6:I0->O            6   0.203   0.745  MaquinaBicho/Mmux_doblandoder11 (MaquinaBicho/Mmux_doblandoder1)
+     LUT5:I4->O            7   0.205   0.774  MaquinaBicho/Mmux_doblandoder13 (wireBajar)
      LUT6:I5->O            8   0.205   0.802  Cuadro/_n0022_inv1 (Cuadro/_n0022_inv)
      FDCE:CE                   0.322          Cuadro/rPosicionX_0
     ----------------------------------------
-    Total                      4.996ns (1.382ns logic, 3.614ns route)
-                                       (27.7% logic, 72.3% route)
+    Total                      5.024ns (1.382ns logic, 3.642ns route)
+                                       (27.5% logic, 72.5% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Divisor/contador100Mhz_1'
-  Clock period: 5.681ns (frequency: 176.013MHz)
-  Total number of paths / destination ports: 1691 / 58
+  Clock period: 4.666ns (frequency: 214.316MHz)
+  Total number of paths / destination ports: 1441 / 48
 -------------------------------------------------------------------------
-Delay:               5.681ns (Levels of Logic = 5)
-  Source:            VGA/pixelY_8 (FF)
+Delay:               4.666ns (Levels of Logic = 7)
+  Source:            VGA/pixelY_2 (FF)
   Destination:       PintarMonitor/rColorRGB_0 (FF)
   Source Clock:      Divisor/contador100Mhz_1 rising
   Destination Clock: Divisor/contador100Mhz_1 rising
 
-  Data Path: VGA/pixelY_8 to PintarMonitor/rColorRGB_0
+  Data Path: VGA/pixelY_2 to PintarMonitor/rColorRGB_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              17   0.447   1.372  VGA/pixelY_8 (VGA/pixelY_8)
-     LUT5:I0->O            2   0.203   0.617  PintarMonitor/GND_10_o_pixelY[9]_LessThan_2_o1_SW0 (N11)
-     LUT6:I5->O            2   0.205   0.845  PintarMonitor/GND_10_o_pixelY[9]_LessThan_2_o1 (PintarMonitor/GND_10_o_pixelY[9]_LessThan_2_o)
-     LUT5:I2->O            3   0.205   0.650  PintarMonitor/GND_10_o_pixelX[10]_AND_11_o19 (PintarMonitor/GND_10_o_pixelX[10]_AND_11_o_mmx_out)
-     MUXF7:S->O            1   0.148   0.684  PintarMonitor/Mmux_GND_10_o_GND_10_o_mux_34_OUT122_SW3 (N54)
-     LUT6:I4->O            1   0.203   0.000  PintarMonitor/Mmux_GND_10_o_GND_10_o_mux_34_OUT13 (PintarMonitor/GND_10_o_GND_10_o_mux_34_OUT<0>)
+     FD:C->Q              18   0.447   1.297  VGA/pixelY_2 (VGA/pixelY_2)
+     LUT4:I0->O            1   0.203   0.000  PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_lut<1> (PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_lut<1>)
+     MUXCY:S->O            1   0.172   0.000  PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<1> (PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<2> (PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<3> (PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<3>)
+     MUXCY:CI->O           1   0.213   0.827  PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<4> (PintarMonitor/Mcompar_GND_16_o_pixelY[9]_LessThan_19_o_cy<4>)
+     LUT4:I0->O            2   0.203   0.961  PintarMonitor/Mmux_GND_16_o_GND_16_o_mux_34_OUT314 (PintarMonitor/Mmux_GND_16_o_GND_16_o_mux_34_OUT314)
+     LUT6:I1->O            1   0.203   0.000  PintarMonitor/GND_16_o_GND_16_o_mux_34_OUT<0>7 (PintarMonitor/GND_16_o_GND_16_o_mux_34_OUT<0>)
      FDS:D                     0.102          PintarMonitor/rColorRGB_0
     ----------------------------------------
-    Total                      5.681ns (1.513ns logic, 4.168ns route)
-                                       (26.6% logic, 73.4% route)
+    Total                      4.666ns (1.581ns logic, 3.085ns route)
+                                       (33.9% logic, 66.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Divisor/clk_1sTemp'
-  Total number of paths / destination ports: 65 / 42
+  Total number of paths / destination ports: 106 / 42
 -------------------------------------------------------------------------
-Offset:              5.516ns (Levels of Logic = 4)
+Offset:              5.581ns (Levels of Logic = 4)
   Source:            iPosicionY2 (PAD)
-  Destination:       Cuadro/rPosicionX_7 (FF)
+  Destination:       Cuadro/rPosicionX_8 (FF)
   Destination Clock: Divisor/clk_1sTemp rising
 
-  Data Path: iPosicionY2 to Cuadro/rPosicionX_7
+  Data Path: iPosicionY2 to Cuadro/rPosicionX_8
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             1   1.222   0.827  iPosicionY2_IBUF (iPosicionY2_IBUF)
-     LUT4:I0->O            8   0.203   1.050  MaquinaBicho/Mmux_doblandoder11 (MaquinaBicho/Mmux_doblandoder1)
-     LUT4:I0->O            4   0.203   0.684  MaquinaBicho/Mmux_doblandoder13 (wireBajar)
+     IBUF:I->O             1   1.222   0.944  iPosicionY2_IBUF (iPosicionY2_IBUF)
+     LUT6:I0->O            8   0.203   0.907  MaquinaBicho/Mmux_doblandoder12 (MaquinaBicho/Mmux_doblandoder11)
+     LUT5:I3->O            7   0.203   0.774  MaquinaBicho/Mmux_doblandoder13 (wireBajar)
      LUT6:I5->O            8   0.205   0.802  Cuadro/_n0022_inv1 (Cuadro/_n0022_inv)
      FDCE:CE                   0.322          Cuadro/rPosicionX_0
     ----------------------------------------
-    Total                      5.516ns (2.155ns logic, 3.362ns route)
-                                       (39.1% logic, 60.9% route)
+    Total                      5.581ns (2.155ns logic, 3.426ns route)
+                                       (38.6% logic, 61.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'iClk'
+  Total number of paths / destination ports: 81 / 81
+-------------------------------------------------------------------------
+Offset:              4.825ns (Levels of Logic = 2)
+  Source:            iReset (PAD)
+  Destination:       controlMouse/mouse/watchdog_timer_count_14 (FF)
+  Destination Clock: iClk rising
+
+  Data Path: iReset to controlMouse/mouse/watchdog_timer_count_14
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            75   1.222   1.817  iReset_IBUF (iReset_IBUF)
+     LUT4:I2->O           23   0.203   1.153  controlMouse/mouse/reset_rising_edge_OR_35_o1 (controlMouse/mouse/reset_rising_edge_OR_35_o)
+     FDR:R                     0.430          controlMouse/mouse/debounce_timer_count_0
+    ----------------------------------------
+    Total                      4.825ns (1.855ns logic, 2.970ns route)
+                                       (38.4% logic, 61.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Divisor/clk_1sTemp'
@@ -910,23 +1106,43 @@ Offset:              4.821ns (Levels of Logic = 2)
                                        (66.8% logic, 33.2% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Divisor/contador100Mhz_1'
-  Total number of paths / destination ports: 8 / 5
+Timing constraint: Default OFFSET OUT AFTER for Clock 'iClk'
+  Total number of paths / destination ports: 16 / 10
 -------------------------------------------------------------------------
-Offset:              4.555ns (Levels of Logic = 2)
-  Source:            VGA/video (FF)
-  Destination:       colorR (PAD)
-  Source Clock:      Divisor/contador100Mhz_1 rising
+Offset:              5.029ns (Levels of Logic = 2)
+  Source:            controlMouse/mouse/m2_state_FSM_FFd3 (FF)
+  Destination:       PS2_CLK (PAD)
+  Source Clock:      iClk rising
 
-  Data Path: VGA/video to colorR
+  Data Path: controlMouse/mouse/m2_state_FSM_FFd3 to PS2_CLK
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q              3   0.447   0.755  VGA/video (VGA/video)
-     LUT2:I0->O            1   0.203   0.579  colorR1 (colorR_OBUF)
-     OBUF:I->O                 2.571          colorR_OBUF (colorR)
+     FDR:C->Q             15   0.447   1.229  controlMouse/mouse/m2_state_FSM_FFd3 (controlMouse/mouse/m2_state_FSM_FFd3)
+     LUT4:I0->O            1   0.203   0.579  controlMouse/mouse/m2_state__n0233<1>1 (controlMouse/mouse/ps2_clk_hi_z)
+     IOBUF:T->IO               2.571          PS2_CLK_IOBUF (PS2_CLK)
     ----------------------------------------
-    Total                      4.555ns (3.221ns logic, 1.334ns route)
+    Total                      5.029ns (3.221ns logic, 1.808ns route)
+                                       (64.1% logic, 35.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Divisor/contador100Mhz_1'
+  Total number of paths / destination ports: 8 / 5
+-------------------------------------------------------------------------
+Offset:              4.559ns (Levels of Logic = 2)
+  Source:            VGA/video (FF)
+  Destination:       colorG (PAD)
+  Source Clock:      Divisor/contador100Mhz_1 rising
+
+  Data Path: VGA/video to colorG
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.447   0.721  VGA/video (VGA/video)
+     LUT2:I0->O            2   0.203   0.616  colorG1 (colorB_OBUF)
+     OBUF:I->O                 2.571          colorB_OBUF (colorB)
+    ----------------------------------------
+    Total                      4.559ns (3.221ns logic, 1.338ns route)
                                        (70.7% logic, 29.3% route)
 
 =========================================================================
@@ -939,7 +1155,8 @@ Clock to Setup on destination clock Divisor/clk_1sTemp
                   | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------+---------+---------+---------+---------+
-Divisor/clk_1sTemp|    4.996|         |         |         |
+Divisor/clk_1sTemp|    5.024|         |         |         |
+iClk              |    4.857|         |         |         |
 ------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock Divisor/contador100Mhz_1
@@ -947,8 +1164,8 @@ Clock to Setup on destination clock Divisor/contador100Mhz_1
                         | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------+---------+---------+---------+---------+
-Divisor/clk_1sTemp      |    6.743|         |         |         |
-Divisor/contador100Mhz_1|    5.681|         |         |         |
+Divisor/clk_1sTemp      |    6.798|         |         |         |
+Divisor/contador100Mhz_1|    4.666|         |         |         |
 ------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock iClk
@@ -956,20 +1173,20 @@ Clock to Setup on destination clock iClk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-iClk           |    4.394|         |         |         |
+iClk           |    4.629|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 46.00 secs
-Total CPU time to Xst completion: 45.77 secs
+Total REAL time to Xst completion: 51.00 secs
+Total CPU time to Xst completion: 50.84 secs
  
 --> 
 
-Total memory usage is 223292 kilobytes
+Total memory usage is 230332 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   14 (   0 filtered)
-Number of infos    :    9 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :   10 (   0 filtered)
 

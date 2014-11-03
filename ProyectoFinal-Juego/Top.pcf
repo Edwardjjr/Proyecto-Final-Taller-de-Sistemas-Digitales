@@ -1,11 +1,12 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sun Oct 26 10:00:25 2014
+// Written by: Map P.20131013 on Fri Oct 31 19:46:18 2014
 //! **************************************************************************
 
 SCHEMATIC START;
 COMP "iClk" LOCATE = SITE "V10" LEVEL 1;
 COMP "sincH" LOCATE = SITE "N6" LEVEL 1;
 COMP "sincV" LOCATE = SITE "P7" LEVEL 1;
+COMP "selectorControles" LOCATE = SITE "T10" LEVEL 1;
 COMP "iPosicionY1" LOCATE = SITE "D9" LEVEL 1;
 COMP "iPosicionY2" LOCATE = SITE "C4" LEVEL 1;
 COMP "iReset" LOCATE = SITE "A8" LEVEL 1;
@@ -20,6 +21,16 @@ COMP "iStart" LOCATE = SITE "B8" LEVEL 1;
 COMP "colorB" LOCATE = SITE "R7" LEVEL 1;
 COMP "colorG" LOCATE = SITE "P8" LEVEL 1;
 COMP "colorR" LOCATE = SITE "U7" LEVEL 1;
+COMP "LedMouse<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "LedMouse<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "LedMouse<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "LedMouse<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "LedMouse<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "LedMouse<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "LedMouse<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "LedMouse<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "PS2_DATA" LOCATE = SITE "K14" LEVEL 1;
+COMP "PS2_CLK" LOCATE = SITE "L13" LEVEL 1;
 COMP "conectorAn<0>" LOCATE = SITE "N16" LEVEL 1;
 COMP "conectorAn<1>" LOCATE = SITE "N15" LEVEL 1;
 COMP "conectorAn<2>" LOCATE = SITE "P18" LEVEL 1;

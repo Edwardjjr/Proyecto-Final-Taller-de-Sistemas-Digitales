@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj ProyectoFinal-Juego -o C:/Users/LISSETH/Desktop/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego/selectorControles.tfi -lib work C:/Users/LISSETH/Desktop/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego//selectorControles.v -module selectorControles -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

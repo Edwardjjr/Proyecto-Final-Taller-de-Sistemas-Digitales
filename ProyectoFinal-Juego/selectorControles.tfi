@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+selectorControles instance_name (
+    .selectorControles(selectorControles), 
+    .mouseDerecha(mouseDerecha), 
+    .mouseIzquierda(mouseIzquierda), 
+    .botonDerecha(botonDerecha), 
+    .botonIzquierda(botonIzquierda), 
+    .salidaDerecha(salidaDerecha), 
+    .salidaIzquierda(salidaIzquierda)
+    );
+
+

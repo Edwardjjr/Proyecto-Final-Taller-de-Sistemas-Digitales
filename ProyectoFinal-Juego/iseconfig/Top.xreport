@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-10-26T09:10:39</DateModified>
+  <DateModified>2014-10-31T18:10:44</DateModified>
   <ModuleName>Top</ModuleName>
   <SummaryTimeStamp>2014-10-23T17:59:23</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/LISSETH/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego/iseconfig/Top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/LISSETH/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/LISSETH/Desktop/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego/iseconfig/Top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/LISSETH/Desktop/Proyecto-Final-Taller-de-Sistemas-Digitales/ProyectoFinal-Juego\</ImplementationReportsDirectory>
   <DateInitialized>2014-10-22T09:29:26</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

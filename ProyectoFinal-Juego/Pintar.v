@@ -59,16 +59,16 @@ module Pintar(
 	
 				///Estos son los ifs de los carros obstaculos. 
 				if ((pixelY > iPosicionY1) &&(pixelY < iPosicionY1+heigthCuadro) &&(pixelX > iPosicionX1)&&(pixelX < (iPosicionX1+lengthCuadro)))begin
-					rColorRGB <= 2'd1;//cTubo; 
+					rColorRGB <= 3'd7;//2'd1;//cTubo; 
 				end
 				
 				if ((pixelY > iPosicionY2) &&(pixelY < iPosicionY2+heigthCuadro) &&(pixelX > iPosicionX2)&&(pixelX < (iPosicionX2+lengthCuadro)))begin
-					rColorRGB <= 2'd1;//cTubo; 
+					rColorRGB <= 3'd7;//2'd1;//cTubo; 
 				end
 				
 				if(iPosicionY1 > 410)begin 
 					if ((pixelY > 0) &&(pixelY < iPosicionY1-410) &&(pixelX > iPosicionX3)&&(pixelX < (iPosicionX3+lengthCuadro)))begin
-					rColorRGB <= 2'd1;//cTubo; 
+					rColorRGB <= 3'd7;//2'd1;//cTubo; 
 					end				
 				end				
 			end

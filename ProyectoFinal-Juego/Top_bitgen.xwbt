@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.ncd
-OUTFILE=C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.bit
+INFILE=C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.ncd
+OUTFILE=C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=C:\Users\LISSETH\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego
+WORKINGDIR=C:\Users\LISSETH\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego
 LICENSE=WebPack
 USER_INFO=210922014_0_0_204

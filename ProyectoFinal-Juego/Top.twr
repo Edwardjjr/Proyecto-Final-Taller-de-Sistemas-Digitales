@@ -31,16 +31,43 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
+Setup/Hold to clock iClk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+PS2_CLK     |    0.255(R)|      FAST  |    0.629(R)|      SLOW  |iClk_BUFGP        |   0.000|
+PS2_DATA    |    2.062(R)|      SLOW  |    0.452(R)|      SLOW  |iClk_BUFGP        |   0.000|
+iReset      |    5.977(R)|      SLOW  |   -1.387(R)|      FAST  |iClk_BUFGP        |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock iClk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+LedMouse<0> |         8.934(R)|      SLOW  |         5.058(R)|      FAST  |iClk_BUFGP        |   0.000|
+LedMouse<1> |         8.722(R)|      SLOW  |         4.938(R)|      FAST  |iClk_BUFGP        |   0.000|
+LedMouse<2> |         9.647(R)|      SLOW  |         5.514(R)|      FAST  |iClk_BUFGP        |   0.000|
+LedMouse<3> |         9.639(R)|      SLOW  |         5.506(R)|      FAST  |iClk_BUFGP        |   0.000|
+LedMouse<4> |         9.014(R)|      SLOW  |         5.064(R)|      FAST  |iClk_BUFGP        |   0.000|
+LedMouse<5> |         9.014(R)|      SLOW  |         5.064(R)|      FAST  |iClk_BUFGP        |   0.000|
+LedMouse<6> |         9.302(R)|      SLOW  |         5.240(R)|      FAST  |iClk_BUFGP        |   0.000|
+LedMouse<7> |         9.311(R)|      SLOW  |         5.249(R)|      FAST  |iClk_BUFGP        |   0.000|
+PS2_CLK     |         8.282(R)|      SLOW  |         4.099(R)|      FAST  |iClk_BUFGP        |   0.000|
+PS2_DATA    |         9.222(R)|      SLOW  |         4.380(R)|      FAST  |iClk_BUFGP        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
 Clock to Setup on destination clock iClk
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-iClk           |    4.162|         |         |         |
+iClk           |    4.626|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sun Oct 26 10:02:08 2014 
+Analysis completed Fri Oct 31 19:47:36 2014 
 --------------------------------------------------------------------------------
 
 Trace Settings:

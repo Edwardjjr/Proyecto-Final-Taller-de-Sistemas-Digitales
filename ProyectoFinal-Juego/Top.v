@@ -22,15 +22,22 @@ module Top(
     input iReset,
     input iStart,
 	 input iClk,
-    input iPosicionY1,
-    input iPosicionY2,
+    input iPosicionY1,					//derecha
+    input iPosicionY2,					//izquierda
+	 //.......Pantalla.......
 	 output sincH,
     output sincV,
     output colorR,
     output colorG,
     output colorB,
 	 output [3:0] conectorAn,
-	 output [0:6] display
+	 output [0:6] display,
+	 //.......MOUSE.......
+	 input selectorControles,
+	 output [7:0] LedMouse,
+	 inout PS2_CLK,
+	 inout PS2_DATA
+	 
 	  
     );
 	 
@@ -84,7 +91,7 @@ wire[0:6] conectorDisplay;
 
 //conectores de numero 
 
-wire [8:0] ConectorNumero;
+wire [8:0] 	ConectorNumero;
 wire [11:0] ConectorNumeroDisplay;
 
 //conectores de modulo de pintar
@@ -96,7 +103,7 @@ wire video, synH, synV;
 
 wire wireClk25;
 wire wireClk1s;
-
+//wire wireClk50;//mouse
 
 //Conectores del birds
 
@@ -111,11 +118,57 @@ wire wirePintarBirds;
 
 wire conectorEnableSumador;
 
+//....................................
+//			selector de controles
+//....................................
+wire [0:7] wireLed;
+wire  wire_PS2_CLK;
+wire wire_PS2_DATA;
+wire controlDer;
+wire controlIzq;
+
+selectorControles controlJugador (
+    .selectorControles(selectorControles), 
+    .mouse(wireLed[0:5]), 
+    .botonDerecha(iPosicionY1), 
+    .botonIzquierda(iPosicionY2), 
+	 
+    .salidaDerecha(controlDer), //salidas
+    .salidaIzquierda(controlIzq)
+    );
+//....................................	 
+
+// Instantiate the module
+MaquinaJugador MaquinaBicho (
+    .clk(wireClk1s), 
+    .reset(iReset),
+	 .iResetPintar(EnableResetPintar),
+    .pintarEnable(EnablePintar), 
+    .izquierda(controlDer), //controles
+    .derecha(controlIzq), //controles
+    .spaceizq(sepuedesubir), 
+    .spaceder(sepuedebajar),  
+    .incremente(wireSubir), 
+    .decremente(wireBajar), 
+	 .oEnablePintar(wirePintarBirds)
+    );
+	 
+
+
+Mouse_Test controlMouse (
+    .CLK_100MHZ(iClk),//wireClk50), 
+    .reset(iReset), 
+    .PS2_CLK(wire_PS2_CLK), //salidas
+    .PS2_DATA(wire_PS2_DATA), 
+    .LED(wireLed)
+    );
+
 // Instantiate the module
 DivisorFrecuencias 	Divisor (
     .clk(iClk), 
     .clk_25Mhz(wireClk25), 
     .clk_1s(wireClk1s)
+	 //.clk_50Mhz(wireClk50)
     );
  
 // Instantiate the module
@@ -134,10 +187,6 @@ LFSR RegistroLFSM(
     .rst_n(EnableConectorLFSM), 
     .data(SalidaContadorLFSM)
     );
-
-
-
- 
 
 
 
@@ -240,21 +289,7 @@ Jugador Cuadro (
     .posicionX(wireCuadroX)
     );
 	 
-// Instantiate the module
-MaquinaJugador MaquinaBicho (
-    .clk(wireClk1s), 
-    .reset(iReset),
-	 .iResetPintar(EnableResetPintar),
-    .pintarEnable(EnablePintar), 
-    .izquierda(iPosicionY1), 
-    .derecha(iPosicionY2), 
-    .spaceizq(sepuedesubir), 
-    .spaceder(sepuedebajar),  
-    .incremente(wireSubir), 
-    .decremente(wireBajar), 
-	 .oEnablePintar(wirePintarBirds)
-    );
-	 
+
 	 
 	 
 // Instantiate the module choque
@@ -298,6 +333,8 @@ Display Display (
 	assign colorR = (video & colorRGB[2]);
 	assign colorG = (video & colorRGB[1]);
 	assign colorB = (video & colorRGB[0]);
-
+	assign LedMouse = wireLed;
+	assign PS2_CLK = wire_PS2_CLK;
+	assign PS2_DATA = wire_PS2_DATA;
 
 endmodule
