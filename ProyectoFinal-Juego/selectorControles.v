@@ -19,8 +19,10 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module selectorControles(
-		input selectorControles,
+		input iclk,
+		input [1:0]selectorControles,
 		input [0:5] mouse,
+		input [7:0] acelerometro,
 		input botonDerecha,
 		input botonIzquierda,
 		output salidaDerecha,
@@ -30,7 +32,7 @@ module selectorControles(
 	 reg controlDer  = 0;
 	 reg controlIzq  = 0;
 	 
-	always@(selectorControles or mouse or botonDerecha or botonIzquierda )
+	always@(selectorControles or mouse or botonDerecha or botonIzquierda or acelerometro)
 	 begin		
 		
 		case(selectorControles)
@@ -39,10 +41,22 @@ module selectorControles(
 				controlIzq <= botonIzquierda;
 			end
 			1:begin
-				controlDer <= mouse[0] ^ !mouse[5];
-				controlIzq <= mouse[0] ^ mouse[5];
+				controlDer <= mouse[5];
+				controlIzq <= (mouse[0] || mouse[1] ||mouse[2]) && !mouse[5];
+				end
+			default:
+			begin
+					if(acelerometro == 8'd41)
+					begin
+						controlIzq <= 1;
+						controlDer <= 0;
+					end
+					else
+					begin
+						controlDer <= 1;
+						controlIzq <= 0;
+					end
 			end
-			//default: poner botones en caso q no se escoga ni mouse ni acelerometro
 		endcase
 		
 	 end

@@ -33,10 +33,11 @@ module Top(
 	 output [3:0] conectorAn,
 	 output [0:6] display,
 	 //.......MOUSE.......
-	 input selectorControles,
-	 output [7:0] LedMouse,
+	 input [1:0]selectorControles,
+	 output [7:0]LedMouse,
 	 inout PS2_CLK,
-	 inout PS2_DATA
+	 inout PS2_DATA,
+	 input RsRx
 	 
 	  
     );
@@ -57,6 +58,8 @@ wire EnableResetPintar;
 //senales para las contadores
 wire EnableConectorLFSM;
 
+//controldor del baud
+wire wireSTick;
 
 
 wire EnablePintar;
@@ -67,8 +70,9 @@ wire EnablePintarMonitor;
 wire[8:0] SalidaContadorLFSM;
 
 
-
-
+//Conector controlJugador
+wire [7:0]wireAcelerometro;
+//wire wireBanderaAceletrometro;
 //Conectores de las tubos a pintar
 wire[9:0] ConectorPosicionX1;
 wire[8:0] ConectorPosicionY1;
@@ -103,6 +107,7 @@ wire video, synH, synV;
 
 wire wireClk25;
 wire wireClk1s;
+wire wireCLK9600;
 //wire wireClk50;//mouse
 
 //Conectores del birds
@@ -128,8 +133,10 @@ wire controlDer;
 wire controlIzq;
 
 selectorControles controlJugador (
-    .selectorControles(selectorControles), 
-    .mouse(wireLed[0:5]), 
+	 .iclk(wireClk1s),	
+    .selectorControles(selectorControles),
+    .mouse(wireLed[0:5]),
+    .acelerometro(wireAcelerometro),	 
     .botonDerecha(iPosicionY1), 
     .botonIzquierda(iPosicionY2), 
 	 
@@ -240,7 +247,6 @@ CarroY RegistroPintarY (
     .iPosicionX(SalidaContadorLFSM), 
     .iPosicionY(9'd0), 
     .iEnable(EnableRegistrosPintarY), 
-    .iSuma(EnableResta), 
     .iSalto(EnableSalto), 
     .oPosicionX(ConectorPosicionX3), 
     .oPosicionY(ConectorPosicionY3)
@@ -322,9 +328,26 @@ Display Display (
     .outputs(conectorDisplay), //out
     .an(conectorInversorAux) //out
  );
+ 
+
+uart_rs Serial (
+    .clk(iClk), 
+    .reset(iReset), 
+    .rx(RsRx), 
+    .s_tick(wireSTick),  
+    .capture_out(wireAcelerometro)
+    );
+	 
+BaudGen Baud (
+    .clk(iClk), 
+    .reset(iReset), 
+    .max_tick(wireSTick)
+    );
+	 
 
 
 
+	assign LedMouse = wireAcelerometro;
 	assign conectorAn = ~conectorInversorAux;
 	assign display = ~conectorDisplay;
 	//Asiganacion de salidas 
@@ -333,7 +356,7 @@ Display Display (
 	assign colorR = (video & colorRGB[2]);
 	assign colorG = (video & colorRGB[1]);
 	assign colorB = (video & colorRGB[0]);
-	assign LedMouse = wireLed;
+	//assign LedMouse = wireLed;
 	assign PS2_CLK = wire_PS2_CLK;
 	assign PS2_DATA = wire_PS2_DATA;
 

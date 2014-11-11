@@ -3,9 +3,11 @@
 
 // Instantiate the module
 selectorControles instance_name (
+    .iclk(iclk), 
     .selectorControles(selectorControles), 
-    .mouseDerecha(mouseDerecha), 
-    .mouseIzquierda(mouseIzquierda), 
+    .mouse(mouse), 
+    .banderaAcelerometro(banderaAcelerometro), 
+    .acelerometro(acelerometro), 
     .botonDerecha(botonDerecha), 
     .botonIzquierda(botonIzquierda), 
     .salidaDerecha(salidaDerecha), 

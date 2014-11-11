@@ -23,7 +23,6 @@ module CarroY(
     input[8:0] iPosicionX,
     input[8:0] iPosicionY,
     input iEnable,
-    input iSuma,
     input iSalto,
     output[9:0] oPosicionX,
     output[8:0] oPosicionY
@@ -44,9 +43,6 @@ module CarroY(
 				RegistroX = 9'd330;
 			end
 		end
-		/*if(iSuma)begin
-			RegistroY = RegistroY + 9'd1;
-		end*/
 		if(iSalto)begin
 			RegistroY = 9'd0;
 			if(iPosicionX < 9'd200)

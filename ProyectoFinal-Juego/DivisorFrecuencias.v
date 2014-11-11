@@ -21,13 +21,12 @@
 module DivisorFrecuencias(
 	input clk,
 	output clk_25Mhz,//para VGA
-	output clk_1s	//Para los botones
+	output clk_1s//Para los botones
 	//output clk_50Mhz //para el mouse
-	
     );
 	
 	 //reg clk_25Temp = 0 ;
-	 reg [24:0] contador = 25'h0;
+	 reg [18:0] contador = 19'h0;
 	 reg clk_1sTemp = 0;
 	 reg [1:0] contador100Mhz = 2'b0;
 	 
@@ -35,8 +34,8 @@ module DivisorFrecuencias(
 		contador <= contador + 1'b1;
 		contador100Mhz <= contador100Mhz + 1'b1;
 		
-		if (contador == 25'h493E0)begin
-			contador <= 11'd0;
+		if (contador == 19'h493E0)begin
+			contador <= 19'd0;
 			clk_1sTemp <= ~clk_1sTemp;
 		end 
 	end

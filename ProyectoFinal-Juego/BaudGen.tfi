@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+BaudGen instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .max_tick(max_tick)
+    );
+
+

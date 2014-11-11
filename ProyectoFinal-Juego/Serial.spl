@@ -1,0 +1,10 @@
+[Inputs]
+iclk
+iEnable
+iRxD
+[Outputs]
+oSalida
+[BiDir]
+[ATTRIBUTES]
+VeriModel Serial
+
