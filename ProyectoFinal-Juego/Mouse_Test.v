@@ -23,7 +23,7 @@ module Mouse_Test(
 		input reset,
 		inout PS2_CLK,
 		inout PS2_DATA,
-		output [7:0] LED
+		output [0:7] LED
     );
 	 
 

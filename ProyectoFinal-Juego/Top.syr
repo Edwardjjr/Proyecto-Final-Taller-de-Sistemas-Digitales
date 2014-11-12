@@ -1,16 +1,16 @@
-Release 14.7 - xst P.20131013 (nt64)
+Release 14.7 - xst P.20131013 (nt)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.55 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.56 secs
  
 --> Reading design: Top.prj
 
@@ -105,47 +105,47 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\ps2_mouse_interface.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\ps2_mouse_interface.v" into library work
 Parsing module <ps2_mouse_interface>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\vga_sync.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\vga_sync.v" into library work
 Parsing module <vga_sync>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\udDecenasCentenas.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\udDecenasCentenas.v" into library work
 Parsing module <udDecenasCentenas>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\uart_rs.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\uart_rs.v" into library work
 Parsing module <uart_rs>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\selectorControles.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\selectorControles.v" into library work
 Parsing module <selectorControles>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Pintar.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Pintar.v" into library work
 Parsing module <Pintar>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Mouse_Test.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Mouse_Test.v" into library work
 Parsing module <Mouse_Test>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\MaquinaMaster.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaMaster.v" into library work
 Parsing module <MaquinaMaster>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\MaquinaJugador.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaJugador.v" into library work
 Parsing module <MaquinaJugador>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\MaquinaCarros.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaCarros.v" into library work
 Parsing module <MaquinaCarros>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\LFSR.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\LFSR.v" into library work
 Parsing module <LFSR>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Jugador.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Jugador.v" into library work
 Parsing module <Jugador>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\DivisorFrecuencias.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\DivisorFrecuencias.v" into library work
 Parsing module <DivisorFrecuencias>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Display.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Display.v" into library work
 Parsing module <Display>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\CuentaPuntos.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CuentaPuntos.v" into library work
 Parsing module <CuentaPuntos>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Choque.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Choque.v" into library work
 Parsing module <Choque>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\CarroY.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroY.v" into library work
 Parsing module <CarroY>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\CarroX.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroX.v" into library work
 Parsing module <CarroX>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Carro2.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Carro2.v" into library work
 Parsing module <Carro2>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\BaudGen.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\BaudGen.v" into library work
 Parsing module <BaudGen>.
-Analyzing Verilog file "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Top.v" into library work
+Analyzing Verilog file "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.v" into library work
 Parsing module <Top>.
 
 =========================================================================
@@ -199,13 +199,13 @@ Elaborating module <BaudGen>.
 =========================================================================
 
 Synthesizing Unit <Top>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Top.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.v".
     Summary:
 	no macro.
 Unit <Top> synthesized.
 
 Synthesizing Unit <selectorControles>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\selectorControles.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\selectorControles.v".
 WARNING:Xst:647 - Input <mouse<3:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <iclk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
@@ -213,7 +213,7 @@ WARNING:Xst:647 - Input <iclk> is never used. This port will be preserved and le
 Unit <selectorControles> synthesized.
 
 Synthesizing Unit <MaquinaJugador>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\MaquinaJugador.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaJugador.v".
         s0 = 2'b00
         s1 = 2'b01
         s2 = 2'b10
@@ -238,13 +238,13 @@ Synthesizing Unit <MaquinaJugador>.
 Unit <MaquinaJugador> synthesized.
 
 Synthesizing Unit <Mouse_Test>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Mouse_Test.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Mouse_Test.v".
     Summary:
 	no macro.
 Unit <Mouse_Test> synthesized.
 
 Synthesizing Unit <ps2_mouse_interface>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\ps2_mouse_interface.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\ps2_mouse_interface.v".
         WATCHDOG_TIMER_VALUE_PP = 20000
         WATCHDOG_TIMER_BITS_PP = 15
         DEBOUNCE_TIMER_VALUE_PP = 186
@@ -324,7 +324,7 @@ Synthesizing Unit <ps2_mouse_interface>.
 Unit <ps2_mouse_interface> synthesized.
 
 Synthesizing Unit <DivisorFrecuencias>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\DivisorFrecuencias.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\DivisorFrecuencias.v".
     Found 2-bit register for signal <contador100Mhz>.
     Found 1-bit register for signal <clk_1sTemp>.
     Found 19-bit register for signal <contador>.
@@ -336,7 +336,7 @@ Synthesizing Unit <DivisorFrecuencias>.
 Unit <DivisorFrecuencias> synthesized.
 
 Synthesizing Unit <MaquinaMaster>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\MaquinaMaster.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaMaster.v".
         a = 3'b000
         b = 3'b001
         c = 3'b010
@@ -361,7 +361,7 @@ Synthesizing Unit <MaquinaMaster>.
 Unit <MaquinaMaster> synthesized.
 
 Synthesizing Unit <LFSR>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\LFSR.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\LFSR.v".
     Found 9-bit register for signal <data>.
     Found 9-bit adder for signal <GND_10_o_data[8]_add_1_OUT> created at line 32.
     Summary:
@@ -371,7 +371,7 @@ Synthesizing Unit <LFSR>.
 Unit <LFSR> synthesized.
 
 Synthesizing Unit <MaquinaCarros>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\MaquinaCarros.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\MaquinaCarros.v".
         a = 3'b000
         b = 3'b001
         c = 3'b010
@@ -396,7 +396,7 @@ Synthesizing Unit <MaquinaCarros>.
 Unit <MaquinaCarros> synthesized.
 
 Synthesizing Unit <CarroX>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\CarroX.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroX.v".
     Register <oEnableCero> equivalent to <oEnableCuenta> has been removed
     Found 1-bit register for signal <oEnableCuenta>.
     Found 10-bit register for signal <RegistroX>.
@@ -409,7 +409,7 @@ Synthesizing Unit <CarroX>.
 Unit <CarroX> synthesized.
 
 Synthesizing Unit <Carro2>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Carro2.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Carro2.v".
     Found 9-bit register for signal <RegistroY>.
     Found 10-bit register for signal <RegistroX>.
     Found 9-bit adder for signal <RegistroY[8]_GND_13_o_add_3_OUT> created at line 44.
@@ -420,7 +420,7 @@ Synthesizing Unit <Carro2>.
 Unit <Carro2> synthesized.
 
 Synthesizing Unit <CarroY>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\CarroY.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CarroY.v".
     Found 10-bit register for signal <RegistroX>.
     Found 9-bit register for signal <RegistroY>.
     Found 9-bit comparator greater for signal <iPosicionX[8]_PWR_12_o_LessThan_2_o> created at line 38
@@ -432,7 +432,7 @@ Synthesizing Unit <CarroY>.
 Unit <CarroY> synthesized.
 
 Synthesizing Unit <vga_sync>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\vga_sync.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\vga_sync.v".
     Found 10-bit register for signal <pixelY>.
     Found 1-bit register for signal <sincH>.
     Found 1-bit register for signal <sincV>.
@@ -448,7 +448,7 @@ Synthesizing Unit <vga_sync>.
 Unit <vga_sync> synthesized.
 
 Synthesizing Unit <Pintar>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Pintar.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Pintar.v".
     Found 3-bit register for signal <rColorRGB>.
     Found 10-bit subtractor for signal <GND_16_o_GND_16_o_sub_28_OUT> created at line 70.
     Found 10-bit adder for signal <n0084> created at line 61.
@@ -487,7 +487,7 @@ Synthesizing Unit <Pintar>.
 Unit <Pintar> synthesized.
 
 Synthesizing Unit <Jugador>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Jugador.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Jugador.v".
     Found 9-bit register for signal <rPosicionX>.
     Found 9-bit subtractor for signal <rPosicionX[8]_GND_17_o_sub_1_OUT> created at line 47.
     Found 9-bit adder for signal <rPosicionX[8]_GND_17_o_add_1_OUT> created at line 50.
@@ -500,7 +500,7 @@ Synthesizing Unit <Jugador>.
 Unit <Jugador> synthesized.
 
 Synthesizing Unit <Choque>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Choque.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Choque.v".
     Found 10-bit comparator greater for signal <GND_19_o_iPosicionXT[9]_LessThan_1_o> created at line 32
     Found 9-bit comparator greater for signal <PWR_18_o_iPosicionXC[8]_LessThan_4_o> created at line 34
     Found 9-bit comparator greater for signal <iPosicionXC[8]_PWR_18_o_LessThan_5_o> created at line 34
@@ -514,7 +514,7 @@ Synthesizing Unit <Choque>.
 Unit <Choque> synthesized.
 
 Synthesizing Unit <CuentaPuntos>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\CuentaPuntos.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\CuentaPuntos.v".
     Found 9-bit register for signal <RegContador>.
     Found 9-bit adder for signal <RegContador[8]_GND_20_o_add_1_OUT> created at line 34.
     Summary:
@@ -523,7 +523,7 @@ Synthesizing Unit <CuentaPuntos>.
 Unit <CuentaPuntos> synthesized.
 
 Synthesizing Unit <udDecenasCentenas>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\udDecenasCentenas.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\udDecenasCentenas.v".
     Found 11-bit register for signal <display>.
     Found 4-bit adder for signal <n0084> created at line 45.
     Found 4-bit adder for signal <binario[8]_GND_21_o_add_4_OUT> created at line 45.
@@ -552,7 +552,7 @@ Synthesizing Unit <udDecenasCentenas>.
 Unit <udDecenasCentenas> synthesized.
 
 Synthesizing Unit <Display>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Display.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Display.v".
     Found 2-bit register for signal <posicion>.
     Found 4-bit register for signal <selector>.
     Found 4-bit register for signal <an>.
@@ -567,7 +567,7 @@ Synthesizing Unit <Display>.
 Unit <Display> synthesized.
 
 Synthesizing Unit <uart_rs>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\uart_rs.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\uart_rs.v".
         DBIT = 8
         SB_TICK = 16
     Found 4-bit register for signal <s_reg>.
@@ -599,7 +599,7 @@ Synthesizing Unit <uart_rs>.
 Unit <uart_rs> synthesized.
 
 Synthesizing Unit <BaudGen>.
-    Related source file is "D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\BaudGen.v".
+    Related source file is "C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\BaudGen.v".
         N = 10
         M = 652
     Found 10-bit register for signal <r_reg>.
@@ -673,8 +673,8 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:2677 - Node <x_increment_1> of sequential type is unconnected in block <mouse>.
-WARNING:Xst:2677 - Node <x_increment_2> of sequential type is unconnected in block <mouse>.
+WARNING:Xst:2677 - Node <x_increment_3> of sequential type is unconnected in block <mouse>.
+WARNING:Xst:2677 - Node <x_increment_4> of sequential type is unconnected in block <mouse>.
 WARNING:Xst:2677 - Node <x_increment_5> of sequential type is unconnected in block <mouse>.
 WARNING:Xst:2677 - Node <x_increment_6> of sequential type is unconnected in block <mouse>.
 WARNING:Xst:2677 - Node <x_increment_7> of sequential type is unconnected in block <mouse>.
@@ -870,8 +870,8 @@ INFO:Xst:2261 - The FF/Latch <RegistroX_1> in Unit <CarroY> is equivalent to the
 WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_7> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_6> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_5> of sequential type is unconnected in block <Top>.
-WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_2> of sequential type is unconnected in block <Top>.
-WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_1> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_4> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <controlMouse/mouse/x_increment_3> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <controlMouse/mouse/right_button> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <controlMouse/mouse/left_button> of sequential type is unconnected in block <Top>.
 
@@ -944,27 +944,27 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 796
+# BELS                             : 787
 #      GND                         : 1
 #      INV                         : 25
 #      LUT1                        : 67
-#      LUT2                        : 42
-#      LUT3                        : 58
-#      LUT4                        : 180
-#      LUT5                        : 67
-#      LUT6                        : 126
+#      LUT2                        : 44
+#      LUT3                        : 59
+#      LUT4                        : 171
+#      LUT5                        : 69
+#      LUT6                        : 123
 #      MUXCY                       : 143
-#      MUXF7                       : 4
+#      MUXF7                       : 2
 #      VCC                         : 1
 #      XORCY                       : 82
 # FlipFlops/Latches                : 238
-#      FD                          : 55
+#      FD                          : 45
 #      FDC                         : 18
 #      FDCE                        : 15
 #      FDE                         : 11
 #      FDPE                        : 4
 #      FDR                         : 58
-#      FDRE                        : 75
+#      FDRE                        : 85
 #      FDS                         : 2
 # Clock Buffers                    : 3
 #      BUFG                        : 2
@@ -982,15 +982,15 @@ Selected Device : 6slx16csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:             238  out of  18224     1%  
- Number of Slice LUTs:                  565  out of   9112     6%  
-    Number used as Logic:               565  out of   9112     6%  
+ Number of Slice LUTs:                  558  out of   9112     6%  
+    Number used as Logic:               558  out of   9112     6%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    599
-   Number with an unused Flip Flop:     361  out of    599    60%  
-   Number with an unused LUT:            34  out of    599     5%  
-   Number of fully used LUT-FF pairs:   204  out of    599    34%  
-   Number of unique control sets:        30
+ Number of LUT Flip Flop pairs used:    593
+   Number with an unused Flip Flop:     355  out of    593    59%  
+   Number with an unused LUT:            35  out of    593     5%  
+   Number of fully used LUT-FF pairs:   203  out of    593    34%  
+   Number of unique control sets:        31
 
 IO Utilization: 
  Number of IOs:                          34
@@ -1034,7 +1034,7 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: 5.666ns (Maximum Frequency: 176.476MHz)
-   Minimum input arrival time before clock: 6.715ns
+   Minimum input arrival time before clock: 6.564ns
    Maximum output required time after clock: 5.052ns
    Maximum combinational path delay: No path found
 
@@ -1084,7 +1084,7 @@ Delay:               5.050ns (Levels of Logic = 3)
     ----------------------------------------  ------------
      FDCE:C->Q            14   0.447   1.322  Cuadro/rPosicionX_5 (Cuadro/rPosicionX_5)
      LUT6:I0->O            5   0.203   0.715  MaquinaBicho/Mmux_doblandoder11 (MaquinaBicho/Mmux_doblandoder1)
-     LUT5:I4->O            9   0.205   0.830  MaquinaBicho/Mmux_doblandoder17 (wireBajar)
+     LUT5:I4->O            9   0.205   0.830  MaquinaBicho/Mmux_doblandoder16 (wireBajar)
      LUT6:I5->O            8   0.205   0.802  Cuadro/_n0022_inv1 (Cuadro/_n0022_inv)
      FDCE:CE                   0.322          Cuadro/rPosicionX_0
     ----------------------------------------
@@ -1093,10 +1093,10 @@ Delay:               5.050ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Divisor/contador100Mhz_1'
-  Clock period: 5.429ns (frequency: 184.179MHz)
-  Total number of paths / destination ports: 1429 / 44
+  Clock period: 5.062ns (frequency: 197.554MHz)
+  Total number of paths / destination ports: 1400 / 64
 -------------------------------------------------------------------------
-Delay:               5.429ns (Levels of Logic = 4)
+Delay:               5.062ns (Levels of Logic = 3)
   Source:            VGA/pixelX_10 (FF)
   Destination:       VGA/pixelY_9 (FF)
   Source Clock:      Divisor/contador100Mhz_1 rising
@@ -1107,39 +1107,37 @@ Delay:               5.429ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDR:C->Q             16   0.447   1.349  VGA/pixelX_10 (VGA/pixelX_10)
-     LUT5:I0->O            4   0.203   0.684  VGA/GND_15_o_GND_15_o_equal_15_o<10>11 (VGA/GND_15_o_GND_15_o_equal_15_o<10>1)
-     LUT6:I5->O           24   0.205   1.173  VGA/GND_15_o_GND_15_o_equal_21_o<10>1 (VGA/GND_15_o_GND_15_o_equal_21_o)
-     LUT6:I5->O           10   0.205   0.857  VGA/GND_15_o_GND_15_o_AND_24_o (VGA/GND_15_o_GND_15_o_AND_24_o)
-     LUT4:I3->O            1   0.205   0.000  VGA/pixelY_9_rstpot (VGA/pixelY_9_rstpot)
-     FD:D                      0.102          VGA/pixelY_9
+     LUT5:I0->O            4   0.203   0.684  VGA/GND_15_o_GND_15_o_AND_27_o111 (VGA/GND_15_o_GND_15_o_AND_27_o11)
+     LUT6:I5->O            4   0.205   0.684  VGA/GND_15_o_GND_15_o_AND_27_o12 (VGA/GND_15_o_GND_15_o_AND_27_o1)
+     LUT3:I2->O           10   0.205   0.856  VGA/GND_15_o_GND_15_o_AND_24_o1 (VGA/GND_15_o_GND_15_o_AND_24_o)
+     FDRE:R                    0.430          VGA/pixelY_0
     ----------------------------------------
-    Total                      5.429ns (1.367ns logic, 4.063ns route)
-                                       (25.2% logic, 74.8% route)
+    Total                      5.062ns (1.490ns logic, 3.572ns route)
+                                       (29.4% logic, 70.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Divisor/clk_1sTemp'
   Total number of paths / destination ports: 152 / 42
 -------------------------------------------------------------------------
-Offset:              6.715ns (Levels of Logic = 7)
-  Source:            selectorControles<0> (PAD)
+Offset:              6.564ns (Levels of Logic = 6)
+  Source:            selectorControles<1> (PAD)
   Destination:       Cuadro/rPosicionX_8 (FF)
   Destination Clock: Divisor/clk_1sTemp rising
 
-  Data Path: selectorControles<0> to Cuadro/rPosicionX_8
+  Data Path: selectorControles<1> to Cuadro/rPosicionX_8
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   1.222   0.981  selectorControles_0_IBUF (selectorControles_0_IBUF)
-     LUT6:I0->O            1   0.203   0.000  MaquinaBicho/Mmux_doblandoder15_F (N121)
-     MUXF7:I0->O           5   0.131   0.943  MaquinaBicho/Mmux_doblandoder15 (MaquinaBicho/Mmux_doblandoder14)
+     IBUF:I->O             2   1.222   0.961  selectorControles_1_IBUF (selectorControles_1_IBUF)
+     LUT5:I0->O            5   0.203   0.943  MaquinaBicho/Mmux_doblandoder14 (MaquinaBicho/Mmux_doblandoder13)
      LUT3:I0->O            2   0.205   0.721  Cuadro/Maddsub_rPosicionX[8]_rPosicionX[8]_mux_3_OUT_lut<5>1_SW0 (N99)
      LUT6:I4->O            4   0.203   0.788  Cuadro/Maddsub_rPosicionX[8]_rPosicionX[8]_mux_3_OUT_lut<5>1 (Cuadro/Maddsub_rPosicionX[8]_rPosicionX[8]_mux_3_OUT_lut<5>)
      LUT5:I3->O            1   0.203   0.808  Cuadro/Maddsub_rPosicionX[8]_rPosicionX[8]_mux_3_OUT_xor<8>11_SW1 (N97)
      LUT6:I3->O            1   0.205   0.000  Cuadro/Maddsub_rPosicionX[8]_rPosicionX[8]_mux_3_OUT_xor<8>11 (Cuadro/rPosicionX[8]_rPosicionX[8]_mux_3_OUT<8>)
      FDPE:D                    0.102          Cuadro/rPosicionX_8
     ----------------------------------------
-    Total                      6.715ns (2.474ns logic, 4.241ns route)
-                                       (36.8% logic, 63.2% route)
+    Total                      6.564ns (2.343ns logic, 4.221ns route)
+                                       (35.7% logic, 64.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'iClk'
@@ -1232,7 +1230,7 @@ Clock to Setup on destination clock Divisor/clk_1sTemp
 Source Clock      |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------+---------+---------+---------+---------+
 Divisor/clk_1sTemp|    5.050|         |         |         |
-iClk              |    6.902|         |         |         |
+iClk              |    7.673|         |         |         |
 ------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock Divisor/contador100Mhz_1
@@ -1241,7 +1239,7 @@ Clock to Setup on destination clock Divisor/contador100Mhz_1
 Source Clock            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ------------------------+---------+---------+---------+---------+
 Divisor/clk_1sTemp      |    6.878|         |         |         |
-Divisor/contador100Mhz_1|    5.429|         |         |         |
+Divisor/contador100Mhz_1|    5.062|         |         |         |
 ------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock iClk
@@ -1255,12 +1253,12 @@ iClk           |    5.666|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.16 secs
+Total REAL time to Xst completion: 50.00 secs
+Total CPU time to Xst completion: 50.75 secs
  
 --> 
 
-Total memory usage is 262480 kilobytes
+Total memory usage is 231356 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   27 (   0 filtered)

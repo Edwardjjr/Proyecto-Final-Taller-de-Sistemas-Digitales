@@ -39,7 +39,6 @@ module Top(
 	 inout PS2_DATA,
 	 input RsRx
 	 
-	  
     );
 	 
 
@@ -72,6 +71,7 @@ wire[8:0] SalidaContadorLFSM;
 
 //Conector controlJugador
 wire [7:0]wireAcelerometro;
+
 //wire wireBanderaAceletrometro;
 //Conectores de las tubos a pintar
 wire[9:0] ConectorPosicionX1;
@@ -108,7 +108,6 @@ wire video, synH, synV;
 wire wireClk25;
 wire wireClk1s;
 wire wireCLK9600;
-//wire wireClk50;//mouse
 
 //Conectores del birds
 
@@ -135,7 +134,7 @@ wire controlIzq;
 selectorControles controlJugador (
 	 .iclk(wireClk1s),	
     .selectorControles(selectorControles),
-    .mouse(wireLed[0:5]),
+    .mouse(wireLed[2:7]),
     .acelerometro(wireAcelerometro),	 
     .botonDerecha(iPosicionY1), 
     .botonIzquierda(iPosicionY2), 

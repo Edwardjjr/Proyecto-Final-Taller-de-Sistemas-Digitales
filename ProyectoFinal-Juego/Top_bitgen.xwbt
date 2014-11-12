@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Top.ncd
-OUTFILE=D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego\Top.bit
+INFILE=C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.ncd
+OUTFILE=C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego\Top.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=D:\Users\iReal\Desktop\Proyecto-Final-Taller-de-Sistemas-Digitales-master\Proyecto-Final-Taller-de-Sistemas-Digitales-master\ProyectoFinal-Juego
+WORKINGDIR=C:\Users\LISSETH\Desktop\diego  edward\Proyecto-Final-Taller-de-Sistemas-Digitales\ProyectoFinal-Juego
 LICENSE=WebPack
-USER_INFO=210858245_0_0_555
+USER_INFO=210922014_0_0_204

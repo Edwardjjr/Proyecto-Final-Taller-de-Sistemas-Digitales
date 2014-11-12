@@ -32,18 +32,21 @@ module selectorControles(
 	 reg controlDer  = 0;
 	 reg controlIzq  = 0;
 	 
-	always@(selectorControles or mouse or botonDerecha or botonIzquierda or acelerometro)
+	always@(posedge iclk, posedge selectorControles[0], posedge mouse[5], posedge botonDerecha, posedge botonIzquierda, posedge acelerometro[0])
+		
 	 begin		
 		
 		case(selectorControles)
+			//Botones
 			0:begin				
 				controlDer <= botonDerecha;
 				controlIzq <= botonIzquierda;
 			end
+			//Mouse
 			1:begin
-				controlDer <= mouse[5];
-				controlIzq <= (mouse[0] || mouse[1] ||mouse[2]) && !mouse[5];
-				end
+				controlDer  <= (mouse[0] || mouse[1] || mouse[2]) && !mouse[5];
+				controlIzq   <= mouse[5];
+			end
 			default:
 			begin
 					if(acelerometro == 8'd41)
